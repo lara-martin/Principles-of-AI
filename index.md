@@ -67,8 +67,8 @@ First day of class is Thursday, January 13, 2022 at 1:45pm-3:15pm Eastern. It wi
 # CMSC 671-01 Principles of Artificial Intelligence at UMBC
 
 
-Course Description
-: Artificial Intelligence (AI), the study of how machines can behave in an intelligent, human-like manner, is shaping the way we interact with modern technology on a daily basis. In this introductory course, we will discuss what an intelligent agent is, and explore how an agent can solve problems by searching, make informed decisions, reason under uncertainty, and even learn. This course will help you develop the general foundational tools necessary to implement your own intelligent agents, understand the methods behind recent advances in AI, and pursue more specialized AI applications, including game AI, knowledge representation, machine learning, natural language processing, computer vision, planning, robotics, and more.
+### Course Description
+Artificial Intelligence (AI), the study of how machines can behave in an intelligent, human-like manner, is shaping the way we interact with modern technology on a daily basis. In this introductory course, we will discuss what an intelligent agent is, and explore how an agent can solve problems by searching, make informed decisions, reason under uncertainty, and even learn. This course will help you develop the general foundational tools necessary to implement your own intelligent agents, understand the methods behind recent advances in AI, and pursue more specialized AI applications, including game AI, knowledge representation, machine learning, natural language processing, computer vision, planning, robotics, and more.
 
 ### Learning Objectives
 By the end of the course, you will be able to...
@@ -80,15 +80,18 @@ problem
 * Reflect on the societal impacts of the AI methods and applications discussed in class
 
 
-
+### Staff
 Instructor
 : [Lara Martin](https://laramartin.net)
-: Office Hours: Tuesdays, 10am-11am EST, or <a href="https://calendly.com/laramar/schedule">by appointment</a> in ITE 216
+: [laramar@umbc.edu](mailto:laramar@umbc.edu)
+: Office Hours: Tuesdays, 2:30-3:30pm EST and Fridays 10am-11am EST in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a> 
 
 TA
 : [Aydin Ayanzadeh]()
+: [aydina1@umbc.edu](mailto:aydina1@umbc.edu)
 : Office Hours: 
 
+### Logistics
 Time and Place
 : Fall 2023, Tuesdays & Thursdays from 1:00-2:15pm EST
 : Janet & Walter Sondheim 103
@@ -98,28 +101,48 @@ Time and Place
 
 
 Textbook
-: [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) (fourth edition) by Stuart Russell and Peter Norvig
+: [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) (fourth edition) by Stuart Russell and Peter Norvig. AI is moving fast, so the edition matters! A digital version of the textbook can be found through Blackboard under "My Textbooks & Course Resources".
 
-<!--
+
 Grading
-: There will be six homeworks and a final project. In addition, you will be required to present a paper in class.
-* 10% Class Knowledge Check
+: 
+* 10% Class Knowledge Checks
 * 5% Paper Presentation
 * 50% Homeworks (5 in total; 10% each)
-* 
-* 35% Final Project
+* 10% Midterm
+* 25% Final Project
+
+
+Asynchronous questions to the instructor & TA or discussions with fellow classmates will be through the class's [Blackboard under "Discussions"](https://blackboard.umbc.edu/ultra/courses/_76209_1/engagement). There is no grade for these discussions; they are only for your benefit. If you have a question that is specific to you, please email [both Lara & Aydin](mailto:laramar@umbc.edu;aydina1@umbc.edu) with _[CMSC 671]_ at the beginning of the subject line.
+
+Class Knowledge Checks
+: These checks are in place to see how well you all are understanding the material as the course goes. There will be a synchronous and an asynchronous option:
+* Synchronous: clicker questions in class, in-class assignments
+* Asynchronous: minute questions, make-up in-class assignments
 
 Paper Presentations
 : Over the course of the semester, each student must prepare a 10-15 minute presentation on a research paper relevant to the course. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to us at least 72 hours in advance of the lecture they will be presented in (e.g., by 3PM on the Monday before the presenation date), so that we can provide feedback on them. Failure to send us the slides ahead of time will result in a grade penalty on the presentation. 
 
+Homeworks
+: 
+
+Midterm
+: 
+
+Final Project
+: 
+
 Collaboration Policy
-: Unless otherwise noted, you ARE allowed to work in pairs on the homework assignments, and teams of 3-5 for the final project.
+: Unless otherwise noted, you ARE allowed to work in pairs on the homework assignments and the paper presentation, and teams of 3-5 for the final project. You must clearly indicate the names of all people involved when submitting the assignment, attributing who did what for the assignment.
+Please note that you are **NOT allowed to collaborate on the midterm.**
 
 Late Day Policy
 : Each student has five free "late days".  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the final project, which must be finished by the final day of class.  Late days may not be used for paper presentations.**
 
+
+
 Class materials have been borrowed from Dr. Chris Callison-Burch, Dr. Tim Finin, Dr. Cassandra Kent, Dr. Cynthia Matuszek, and Dr. Mark Riedl.
--->
+
 
 ------
 ## UMBC School Policies
