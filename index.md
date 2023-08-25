@@ -30,12 +30,12 @@ Want to join the class, but didn't attend the first lecture? Here are the steps 
 {% if page.type == "in-class" %}
 <!-- In class activity -->
 <div class="alert alert-info">
-The in-class activity for {{ page.release_date | date: "%A %b %-d" }} will be to <a href="{{page.url}}">{{ page.title }}</a>.  
+The in-class activity for {{ page.release_date | date: "%A %b %-d" }} will be to <a href="{{page.url}}">{{ page.title }}</a>.
 </div>
 {% else %}
 <!-- Homework assignment -->
 <div class="alert alert-info">
-<a href="{{page.url}}">{{page.type}} {{page.number}}: {{page.title}}</a> has been released.  
+<a href="{{page.url}}">{{page.type}} {{page.number}}: {{page.title}}</a> has been released.
 {% if page.deliverables %}
 The assignment has multiple deliverables.
 <ul>
@@ -84,12 +84,12 @@ problem
 Instructor
 : [Lara Martin](https://laramartin.net)
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
-: Office Hours: Tuesdays, 2:30-3:30pm EST and Fridays 10am-11am EST in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a> 
+: Office Hours: Tuesdays, 2:30-3:30pm EST and Fridays 10am-11am EST in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a>.
 
 TA
-: [Aydin Ayanzadeh]()
+: Aydin Ayanzadeh
 : [aydina1@umbc.edu](mailto:aydina1@umbc.edu)
-: Office Hours: 
+: Office Hours: TBA
 
 ### Logistics
 Time and Place
@@ -113,7 +113,7 @@ Grading
 * 25% Final Project
 
 
-Asynchronous questions to the instructor & TA or discussions with fellow classmates will be through the class's [Blackboard under "Discussions"](https://blackboard.umbc.edu/ultra/courses/_76209_1/engagement). There is no grade for these discussions; they are only for your benefit. If you have a question that is specific to you, please email [both Lara & Aydin](mailto:laramar@umbc.edu;aydina1@umbc.edu) with _[CMSC 671]_ at the beginning of the subject line.
+Asynchronous questions to the instructor & TA or discussions with fellow classmates will be through the class Slack. (Please email [both Lara & Aydin](mailto:laramar@umbc.edu;aydina1@umbc.edu?subject=[CMSC 671] Need access to class Slack) specifying the email address you want to use, if you need to be added.) There is no grade for these discussions; they are only for your benefit.
 
 Class Knowledge Checks
 : These checks are in place to see how well you all are understanding the material as the course goes. There will be a synchronous and an asynchronous option:
@@ -127,7 +127,7 @@ Homeworks
 : 
 
 Midterm
-: 
+: The midterm will show us how well you have learned about the different methods and if you can reason about when to apply them.
 
 Final Project
 : 

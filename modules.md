@@ -60,7 +60,7 @@ No homework for this module.
 {% endif %}
 
 
-<b>Academic Papers:</b>
+<b>Readings (due before the lecture):</b>
 {% if lesson.readings %}
 {% for reading in lesson.readings %}
 {% if reading.url %}
