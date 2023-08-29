@@ -87,25 +87,25 @@
           url: 
           title: AIMA, Chapter 3.5-3.6, 
   -
-     title: Local Search (& Vacuum Robots)
-     video: 
-     length: 
-     slides: 
-     readings:
-       -
-         authors: Stuart Russell & Peter Norvig
-         url: 
-         title: AIMA, Chapter 4.4 ...
+      title: Local Search (& Vacuum Robots)
+      video: 
+      length: 
+      slides: 
+      readings:
+        -
+          authors: Stuart Russell & Peter Norvig
+          url: 
+          title: AIMA, Chapter 4.4 ...
   -
-     title: Multi-Agent Search (& Games)
-     video: 
-     length: 
-     slides: 
-     readings:
-       -
-         authors: Stuart Russell & Peter Norvig
-         url: 
-         title: AIMA, Chapter 5.1-5.3, 5.5
+      title: Multi-Agent Search (& Games)
+      video: 
+      length: 
+      slides: 
+      readings:
+        -
+          authors: Stuart Russell & Peter Norvig
+          url: 
+          title: AIMA, Chapter 5.1-5.3, 5.5
 
 -
   module_number: 2
