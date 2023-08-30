@@ -89,7 +89,7 @@ Instructor
 TA
 : Aydin Ayanzadeh
 : [aydina1@umbc.edu](mailto:aydina1@umbc.edu)
-: Office Hours: TBA
+: Office Hours: Wednesdays, 2-4:30pm ET
 
 ### Logistics
 Time and Place
