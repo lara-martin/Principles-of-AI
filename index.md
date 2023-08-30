@@ -84,7 +84,7 @@ problem
 Instructor
 : [Lara Martin](https://laramartin.net)
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
-: Office Hours: Tuesdays, 2:30-3:30pm EST and Fridays 10am-11am EST in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a>.
+: Office Hours: Tuesdays, 2:30-3:30pm ET and Fridays 11am-12pm ET in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a>.
 
 TA
 : Aydin Ayanzadeh
