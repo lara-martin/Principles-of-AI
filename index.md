@@ -73,9 +73,10 @@ Artificial Intelligence (AI), the study of how machines can behave in an intelli
 ### Learning Objectives
 By the end of the course, you will be able to...
 * Predict the behavior of different search algorithms
+* Construct and query a knowledge base using first-order logic
 * Define decision making problems, and implement agents that can solve them
 * Apply probabilistic reasoning to problems with uncertainty
-* Compare and contrast machine learning methods, and determine an appropriate method for a given
+* Compare and contrast AI methods, and determine an appropriate method for a given
 problem
 * Reflect on the societal impacts of the AI methods and applications discussed in class
 
@@ -118,9 +119,8 @@ Asynchronous questions to the instructor & TA or discussions with fellow classma
 ### Assignment Descriptions
 
 Class Knowledge Checks
-: These checks are in place to see how well you all are understanding the material as the course goes. There will be a synchronous _or_ an asynchronous option:
-* Synchronous: clicker questions in class, in-class assignments
-* Asynchronous: minute questions, make-up in-class assignments
+: These checks are in place to see how well you all are understanding the material as the course goes. These might look like clicker questions (using Poll Everywhere), "minute" questions to get you to think about the ethics of an AI topic, or a small in-class assignment. These will not be graded for accuracy, just whether or not you did them.
+If you cannot attend a lecture for any reason, you can make up the "minute" questions or assignments in your own time. [Please ask Lara & Aydin](mailto:laramar@umbc.edu;aydina1@umbc.edu?subject=[CMSC 671] Make-up clicker question) if you need to make up a day where we did only clicker questions.
 
 Paper Presentations
 : In the first half of the semester, each student must prepare a 10 minute presentation on a research paper relevant to the course, showing how these methods are still used in research today. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to us at least 72 hours in advance of the lecture they will be presented in (e.g., by 1PM on the Monday before the presenation date), so that we can provide feedback on them. Failure to send us the slides ahead of time will result in a grade penalty on the presentation. 
@@ -153,7 +153,9 @@ Use of AI/automatic tools for grammatical assistance (such as spell-checkers or 
 Unless otherwise noted, you ARE allowed to work in pairs on the homework assignments and the paper presentation, and teams of 3-5 for the final project. You must clearly indicate the names of all people involved when submitting the assignment, attributing who did what for the assignment.
 Please note that you are **NOT allowed to collaborate on the midterm.**
 
-
+#### Technology Use
+You're allowed to use your computer in class since the clicker questions will be by phone or web browser
+(https://www.polleverywhere.com/), but be warned that I'm more likely to call on you and ask you a question if I see you're not paying attention. 😈
 
 Class materials have been borrowed from Dr. Chris Callison-Burch, Dr. Tim Finin, Dr. Cassandra Kent, Dr. Cynthia Matuszek, and Dr. Mark Riedl. Generative AI policy is borrowed from Dr. Frank Ferraro.
 
