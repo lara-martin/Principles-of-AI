@@ -89,7 +89,7 @@ Instructor
 TA
 : Aydin Ayanzadeh
 : [aydina1@umbc.edu](mailto:aydina1@umbc.edu)
-: Office Hours: Wednesdays, 2-4:30pm ET
+: Office Hours: Wednesdays, 2-4:30pm ET in ITE 334, also <a href="mailto:aydina1@umbc.edu">by appointment</a>.
 
 ### Logistics
 Time and Place
@@ -108,40 +108,54 @@ Grading
 : 
 * 10% Class Knowledge Checks
 * 5% Paper Presentation
-* 50% Homeworks (5 in total; 10% each)
-* 10% Midterm
+* 40% Homeworks (4 in total; 10% each)
+* 20% Midterm
 * 25% Final Project
 
 
 Asynchronous questions to the instructor & TA or discussions with fellow classmates will be through the class Slack. (Please email [both Lara & Aydin](mailto:laramar@umbc.edu;aydina1@umbc.edu?subject=[CMSC 671] Need access to class Slack) specifying the email address you want to use, if you need to be added.) There is no grade for these discussions; they are only for your benefit.
 
+### Assignment Descriptions
+
 Class Knowledge Checks
-: These checks are in place to see how well you all are understanding the material as the course goes. There will be a synchronous and an asynchronous option:
+: These checks are in place to see how well you all are understanding the material as the course goes. There will be a synchronous _or_ an asynchronous option:
 * Synchronous: clicker questions in class, in-class assignments
 * Asynchronous: minute questions, make-up in-class assignments
 
 Paper Presentations
-: Over the course of the semester, each student must prepare a 10-15 minute presentation on a research paper relevant to the course. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to us at least 72 hours in advance of the lecture they will be presented in (e.g., by 3PM on the Monday before the presenation date), so that we can provide feedback on them. Failure to send us the slides ahead of time will result in a grade penalty on the presentation. 
+: In the first half of the semester, each student must prepare a 10 minute presentation on a research paper relevant to the course, showing how these methods are still used in research today. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to us at least 72 hours in advance of the lecture they will be presented in (e.g., by 1PM on the Monday before the presenation date), so that we can provide feedback on them. Failure to send us the slides ahead of time will result in a grade penalty on the presentation. 
 
 Homeworks
-: 
+: There are 4 homeworks, each corresponding to Modules 1-4.
 
 Midterm
 : The midterm will show us how well you have learned about the different methods and if you can reason about when to apply them.
 
 Final Project
-: 
+: Teams will come up with project ideas and implement them. There will be check-in points along the way to see how you are progressing and to see how well your team is working together.
 
-Collaboration Policy
-: Unless otherwise noted, you ARE allowed to work in pairs on the homework assignments and the paper presentation, and teams of 3-5 for the final project. You must clearly indicate the names of all people involved when submitting the assignment, attributing who did what for the assignment.
+### Class Policies
+#### Late Day Policy
+Each student has five free "late days".  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the final project, which must be finished by the final day of class.  Late days may not be used for paper presentations.**
+
+#### Academic Integrity
+If you are struggling because of the material or having difficulties completing the assignments on time, please [reach out to Dr. Martin](mailto:laramar@umbc.edu) rather than copying another student or looking up answers online. We can come up with a solution to help you out before you feel like you need to resort to cheating.
+
+Plagiarism or any sort of cheating is not tolerated in this class. All work submitted must be your own (or, if permitted, with partners---see [Collaoration Policy](#collaboration-policy). If you are allowed external sources
+on an assignment (i.e. not an exam), please be sure to cite your source! Please see [the next section](#generative-ai) for our policy specific to ChatGPT and other generative AI. Remember, reusing your own work from a different class is not permitted; this is self-plagiarism. If you are suspected of cheating, plagiarism, or other forms of academic dishonesty, your case will be brought to the attention of the Undergraduate Academic Conduct Committee or Graduate Council Grievance Committee and may result in an F in the course, depending on the Committee’s decision. **Your first offense will result in at least a 0 (zero) on the assignment.** If you would like more information on what constitutes as academic dishonesty, please consult [https://academicconduct.umbc.edu/](https://academicconduct.umbc.edu/).
+
+#### Generative AI
+If you use ChatGPT (or similar chatbots or AI-based generation tools), you must describe exactly how you used it, including providing the prompt, the original generation, and your edits. This applies to prose, code, or any form of content creation. Not disclosing is an academic integrity violation. If you do disclose, your answer may receive anywhere from 0 to full credit, depending on the extent of substantive edits, achievement of learning outcomes, and overall circumvention of those outcomes.
+
+Use of AI/automatic tools for grammatical assistance (such as spell-checkers or Grammarly) or small-scale predictive text (e.g., next word prediction, tab completion) is okay. Provided the use of these tools does not change the substance of your work, use of these tools may be, but is not required to be, disclosed.
+
+#### Collaboration Policy
+Unless otherwise noted, you ARE allowed to work in pairs on the homework assignments and the paper presentation, and teams of 3-5 for the final project. You must clearly indicate the names of all people involved when submitting the assignment, attributing who did what for the assignment.
 Please note that you are **NOT allowed to collaborate on the midterm.**
 
-Late Day Policy
-: Each student has five free "late days".  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the final project, which must be finished by the final day of class.  Late days may not be used for paper presentations.**
 
 
-
-Class materials have been borrowed from Dr. Chris Callison-Burch, Dr. Tim Finin, Dr. Cassandra Kent, Dr. Cynthia Matuszek, and Dr. Mark Riedl.
+Class materials have been borrowed from Dr. Chris Callison-Burch, Dr. Tim Finin, Dr. Cassandra Kent, Dr. Cynthia Matuszek, and Dr. Mark Riedl. Generative AI policy is borrowed from Dr. Frank Ferraro.
 
 
 ------
