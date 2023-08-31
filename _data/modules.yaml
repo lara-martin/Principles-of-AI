@@ -85,7 +85,7 @@
         -
           authors: Stuart Russell & Peter Norvig
           url: 
-          title: AIMA, Chapter 3.5-3.6, 
+          title: AIMA, Chapter 3.5-3.7
     -
       title: Local Search
       video: 
@@ -95,7 +95,7 @@
         -
           authors: Stuart Russell & Peter Norvig
           url: 
-          title: AIMA, Chapter 4.4 ...
+          title: AIMA, Chapter 4.1-4.4
     -
       title: Multi-Agent Search
       video: 
@@ -105,7 +105,7 @@
         -
           authors: Stuart Russell & Peter Norvig
           url: 
-          title: AIMA, Chapter 5.1-5.3, 5.5
+          title: AIMA, Chapter 5.1-5.4
   hw:
     -
       title: Search
@@ -131,16 +131,6 @@
           url: 
           title: AIMA, Chapter 7.1-7.5     
     - 
-      title: Planning
-      video: 
-      length: 
-      slides: 
-      readings:
-        -
-          authors: Stuart Russell & Peter Norvig
-          url: 
-          title: AIMA, Chapter 11.1-11.7
-    - 
       title: Knowledge Representation
       video: 
       length: 
@@ -149,7 +139,17 @@
         -
           authors: Stuart Russell & Peter Norvig
           url: 
-          title: AIMA, Chapter 10
+          title: AIMA, Chapter 10.1, 10.2, 10.5
+    - 
+      title: Planning
+      video: 
+      length: 
+      slides: 
+      readings:
+        -
+          authors: Stuart Russell & Peter Norvig
+          url: 
+          title: AIMA, Chapter 11.1-11.7          
   hw:
     -
       title: Logical Agents
