@@ -275,10 +275,6 @@
       length: 
       slides: 
       readings:
-        -
-          authors: Stuart Russell & Peter Norvig
-          url: 
-          title: AIMA,  
     - 
       title: Perceptrons & Local Search Revisited/Gradient Descent
       video: 
@@ -296,12 +292,18 @@
       slides: 
       readings:
         -
-          authors: Stuart Russell & Peter Norvig
-          url: 
-          title: AIMA, Chapter 
+          authors: Daniel Jurafsky & James H. Martin 
+          url: https://web.stanford.edu/~jurafsky/slp3/7.pdf
+          title: "Speech and Language Processing, Chapter 7: Neural Networks and Neural
+Language Models"
     - 
       title: Transformers
       video: 
       length: 
       slides: 
       readings:
+        -
+          authors: Daniel Jurafsky & James H. Martin 
+          url: https://web.stanford.edu/~jurafsky/slp3/10.pdf
+          title: "Speech and Language Processing, Chapter 10: Transformers and Pretrained
+Language Models"
