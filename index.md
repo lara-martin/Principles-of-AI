@@ -76,9 +76,10 @@ By the end of the course, you will be able to...
 * Construct and query a knowledge base using first-order logic
 * Define decision making problems, and implement agents that can solve them
 * Apply probabilistic reasoning to problems with uncertainty
-* Compare and contrast AI methods, and determine an appropriate method for a given
+* Compare and contrast AI methods to determine an appropriate method for a given
 problem
 * Reflect on the societal impacts of the AI methods and applications discussed in class
+* Develop and run AI experiments to work towards solving modern problems.
 
 
 ### Staff
@@ -123,16 +124,16 @@ Class Knowledge Checks
 If you cannot attend a lecture for any reason, you can make up the "minute" questions or assignments in your own time. [Please ask Lara & Aydin](mailto:laramar@umbc.edu;aydina1@umbc.edu?subject=[CMSC 671] Make-up clicker question) if you need to make up a day where we did only clicker questions.
 
 Paper Presentations
-: In the first half of the semester, each student must prepare a 10 minute presentation on a research paper relevant to the course, showing how these methods are still used in research today. Since these presentation will be a substantial component of the learning experience in the class, slides must be prepared and emailed to us at least 72 hours in advance of the lecture they will be presented in (e.g., by 1PM on the Monday before the presenation date), so that we can provide feedback on them. Failure to send us the slides ahead of time will result in a grade penalty on the presentation. 
+: Throughout the semester, each student must select a Module and find a research paper relevant to the selected Module, showing how these methods are still used in research today. You will have a specified presentation day where you will informally present what you learned about the paper in small groups and then your group will share the key points with the rest of the class. The night before you present, a short 1-page summary of the paper will be due. More information about the presentation/summary can be found [here](https://laramartin.net/Principles-of-AI/homeworks/presentations.html).
 
 Homeworks
-: There are 4 homeworks, each corresponding to Modules 1-4.
+: There are 4 homeworks, each corresponding to Modules 1-4: Search, Logical Agents, Sequential Decision Making, and Probability & Stochastic Reasoning. They will each have a corresponding page on this website with more information.
 
 Midterm
-: The midterm will show us how well you have learned about the different methods and if you can reason about when to apply them.
+: The midterm will show us how well you have learned about the different methods and if you can reason about when to apply them. It will test your knowledge about Modules 1-3 to see if there are any weaknesses in your knowledge before you start on your final project.
 
 Final Project
-: Teams will come up with project ideas and implement them. There will be check-in points along the way to see how you are progressing and to see how well your team is working together.
+: Teams will come up with AI project ideas and implement them. There will be check-in points along the way to see how you are progressing and to see how well your team is working together.
 
 ### Class Policies
 #### Late Day Policy
@@ -157,6 +158,7 @@ Please note that you are **NOT allowed to collaborate on the midterm.**
 You're allowed to use your computer in class since the clicker questions will be by phone or web browser
 (https://www.polleverywhere.com/), but be warned that I'm more likely to call on you and ask you a question if I see you're not paying attention. 😈
 
+##### Acknowledgements
 Class materials have been borrowed from Dr. Chris Callison-Burch, Dr. Tim Finin, Dr. Cassandra Kent, Dr. Cynthia Matuszek, and Dr. Mark Riedl. Generative AI policy is borrowed from Dr. Frank Ferraro.
 
 
