@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CIS 700 - Lectures
+title: CMSC 671 - Schedule
 active_tab: lectures
 ---
 
@@ -10,11 +10,7 @@ active_tab: lectures
 {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
 <!-- End create a HTML anchor for the most recent lecture -->
 
-<!--
-<div class="alert alert-info">
-You can <a href="https://upenn.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=8b5f2734-0738-4f52-90f5-ab3c01236b7c">watch recordings of the lecture videos online</a>.
-</div>
--->
+
 
 <div class="alert alert-info">
 The lecture schedule will be updated as the term progresses. You can find more details under the <a href="/modules.html">Modules</a> tab.
@@ -25,8 +21,7 @@ The lecture schedule will be updated as the term progresses. You can find more d
     <tr>
       <th>Date</th> 
       <th>Lecture Topic</th>
-      <th>Activity</th>
-      <th>Academic Papers</th>
+      <th>Readings</th>
       <th>Homework Due</th>
     </tr>
   </thead>
@@ -108,15 +103,6 @@ The lecture schedule will be updated as the term progresses. You can find more d
 			  {% endif %}
 			{% endif %}
 		{% endif %}
-	      </td>
-	      <td width="16%">
-		  {% for activity in lecture.activities %}
-		    {% if activity.url %}
-		      <a href="in_class_activities/{{ activity.url }}">{{ activity.title }}</a> 
-		    {% else %}
-		      {{ activity.title }}
-		    {% endif %}
-		  {% endfor %}
 	      </td>
 	      <td>
 		{% if required %} 
