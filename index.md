@@ -117,7 +117,7 @@ Grading
 
 Asynchronous questions to the instructor & TA or discussions with fellow classmates will be through the class Slack. (Please email [both Lara & Aydin](mailto:laramar@umbc.edu;aydina1@umbc.edu?subject=[CMSC 671] Need access to class Slack) specifying the email address you want to use, if you need to be added.) There is no grade for these discussions; they are only for your benefit.
 
-### Assignment Descriptions
+#### Assignment Descriptions
 
 Class Knowledge Checks
 : These checks are in place to see how well you all are understanding the material as the course goes. These might look like clicker questions (using Poll Everywhere), "minute" questions to get you to think about the ethics of an AI topic, or a small in-class assignment. These will not be graded for accuracy, just whether or not you did them.
