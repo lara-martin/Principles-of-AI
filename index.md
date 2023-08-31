@@ -151,8 +151,8 @@ If you use ChatGPT (or similar chatbots or AI-based generation tools), you must 
 Use of AI/automatic tools for grammatical assistance (such as spell-checkers or Grammarly) or small-scale predictive text (e.g., next word prediction, tab completion) is okay. Provided the use of these tools does not change the substance of your work, use of these tools may be, but is not required to be, disclosed.
 
 #### Collaboration Policy
-Unless otherwise noted, you ARE allowed to work in pairs on the homework assignments and the paper presentation, and teams of 3-5 for the final project. You must clearly indicate the names of all people involved when submitting the assignment, attributing who did what for the assignment.
-Please note that you are **NOT allowed to collaborate on the midterm.**
+You ARE allowed to work in pairs on the homework assignments and teams of 3-5 for the final project. You must clearly indicate the names of all people involved when submitting the assignment, attributing who did what for the assignment. You can discuss answers/submissions for the paper presentation & class knowledge checks.
+Please note that you are **NOT allowed to collaborate at all on the midterm.**
 
 #### Technology Use
 You're allowed to use your computer in class since the clicker questions will be by phone or web browser
