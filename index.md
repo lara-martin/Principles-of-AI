@@ -79,7 +79,7 @@ By the end of the course, you will be able to...
 * Compare and contrast AI methods to determine an appropriate method for a given
 problem
 * Reflect on the societal impacts of the AI methods and applications discussed in class
-* Develop and run AI experiments to work towards solving modern problems.
+* Develop and run AI experiments to work towards solving modern problems
 
 
 ### Staff
