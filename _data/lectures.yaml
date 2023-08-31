@@ -36,6 +36,7 @@
 -
   date: 2023-09-26
   title: Multi-Agent Search
+  type: deadline
   homework_due:   
     -
       title: "HW1: Search (10%)"
@@ -52,6 +53,7 @@
 -
   date: 2023-10-10
   title: Planning
+  type: deadline
   homework_due:   
     -
       title: "HW2: Logical Agents (10%)"
@@ -71,6 +73,7 @@
 -
   date: 2023-10-26
   title: Reinforcement Learning
+  type: deadline
   homework_due:   
     -
       title: "HW3: Sequential Decision Making (10%)"
@@ -93,6 +96,7 @@
 -
   date: 2023-11-16
   title: Naive Bayes
+  type: deadline
   homework_due:   
     -
       title: "HW4: Probability & Stochastic Reasoning (10%)"
