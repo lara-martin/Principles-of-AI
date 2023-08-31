@@ -251,7 +251,7 @@
         -
           authors: Stuart Russell & Peter Norvig
           url: 
-          title: Chapter 19 "Learning from Examples" 19.1-19.6 
+          title: Chapter 19.1-19.6 
         -
           authors: Daniel Jurafsky & James H. Martin 
           url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
@@ -284,7 +284,7 @@
         -
           authors: Stuart Russell & Peter Norvig
           url: 
-          title: AIMA, Chapter 19.6, 4.1-4.2
+          title: AIMA, Chapter 4.1, 19.6
     - 
       title: Deep Neural Networks
       video: 
