@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CIS 700 - Modules
+title: CMSC 671 - Modules
 active_tab: modules
 ---
 <!-- Create a HTML anchor for the most recent module -->
