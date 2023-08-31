@@ -106,6 +106,12 @@
           authors: Stuart Russell & Peter Norvig
           url: 
           title: AIMA, Chapter 5.1-5.3, 5.5
+  hw:
+    -
+      title: Search
+      url:
+      percentage: 10%
+      due_date:          
 
 -
   module_number: 2
@@ -148,7 +154,13 @@
       title: Planning Revisited?
       video: 
       length: 
-      slides:          
+      slides:   
+  hw:
+    -
+      title: Logical Agents
+      url:
+      percentage: 10%
+      due_date:        
 -
   module_number: 3
   start_date: 2023
@@ -157,7 +169,7 @@
   description: Stochastic. Decision every step. Everything before is episodic
   lessons:
     - 
-      title: MDPs (& )
+      title: MDPs
       video: 
       length: 
       slides: 
@@ -196,7 +208,12 @@
           authors: 
           url: 
           title:       
-          
+   hw:
+    -
+      title: Sequential Decision Making
+      url:
+      percentage: 10%
+      due_date:           
 -
   module_number: 4
   start_date: 2023
@@ -253,6 +270,12 @@
           authors: Daniel Jurafsky & James H. Martin 
           url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
           title: "Speech and Language Processing, Chapter 4: Naive Bayes and Sentiment Classification"
+  hw:
+    -
+      title: Probability & Stochastic Reasoning
+      url:
+      percentage: 10%
+      due_date:            
 -
   module_number: 5
   start_date: 2023
