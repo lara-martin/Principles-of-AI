@@ -36,6 +36,10 @@
 -
   date: 2023-09-26
   title: Multi-Agent Search
+  homework_due:   
+    -
+      title: "HW1: Search (10%)"
+      url:
 -
   date: 2023-09-28
   title: Propositional Logic
@@ -44,10 +48,14 @@
   title: Propositional Logic
 -
   date: 2023-10-05
-  title: Planning
+  title: Knowledge Representation
 -
   date: 2023-10-10
-  title: Knowledge Representation
+  title: Planning
+  homework_due:   
+    -
+      title: "HW2: Logical Agents (10%)"
+      url:  
 -
   date: 2023-10-12
   title: MDPs
@@ -63,6 +71,10 @@
 -
   date: 2023-10-26
   title: Reinforcement Learning
+  homework_due:   
+    -
+      title: "HW3: Sequential Decision Making (10%)"
+      url:  
 -
   date: 2023-10-31
   title: Intro to Probability
@@ -81,6 +93,10 @@
 -
   date: 2023-11-16
   title: Naive Bayes
+  homework_due:   
+    -
+      title: "HW4: Probability & Stochastic Reasoning (10%)"
+      url:    
 -
   date: 2023-11-21
   homework_due:   
