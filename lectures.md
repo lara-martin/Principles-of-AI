@@ -66,9 +66,9 @@ The lecture schedule will be updated as the term progresses. You can find more d
 	    {% endif %}
 
 	    {% if lecture.type %}
-	      {% if lecture.type and lecture.type == 'deadline' %}
+	      {% if lecture.type == 'deadline' %}
 		class="warning"
-	      {% else if lecture.type and lecture.type == 'no_lecture' %}
+	      {% else if lecture.type == 'no_lecture' %}
 		class="danger"
 	      {% endif %}
 	    {% endif %}
