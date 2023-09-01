@@ -22,8 +22,16 @@
   date: 2023-09-07
   title: Uninformed Search
 -
+  date: 2023-09-07
+  title: Waitlists Deactivated
+  type: no_lecture
+-
   date: 2023-09-12
   title: Uninformed Search
+-
+  type: no_lecture
+  date: 2023-09-13
+  title: Last Day to Change Schedule
 -
   date: 2023-09-14
   title: Informed Search
@@ -92,6 +100,10 @@
 -
   date: 2023-11-07
   title: Statistical Learning
+-
+  date: 2023-11-08
+  title: Last Day to Withdraw
+  type: no_lecture
 -
   date: 2023-11-09
   title: Statistical Learning
