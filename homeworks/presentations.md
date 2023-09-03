@@ -26,9 +26,11 @@ You can download the materials for this assignment here:
 {{page.title}}
 =============================================================
 
+This assignment is to show you the modern uses of older AI methods and give you an entry point for how to critically read an academic paper.
+
 ## Learning Objectives
-This assignment will teach you to
-- find reputible research articles from a specific area that you find interesting
+In this assignment, you will
+- find reputible research articles from a specific AI area that you find interesting
 - recognize & synthesize key points of a research paper
 - communicate key findings from a research paper
 
