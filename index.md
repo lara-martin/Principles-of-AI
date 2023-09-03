@@ -108,8 +108,8 @@ Textbook
 
 Grading
 : 
-* 10% Class Knowledge Checks
-* 5% Paper Presentation
+* 5% Class Knowledge Checks
+* 10% Paper Presentation
 * 40% Homeworks (4 in total; 10% each)
 * 20% Midterm
 * 25% Final Project
