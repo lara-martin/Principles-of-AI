@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Paper Presentation
+title: Paper Presentation (10%)
 active_tab: homework
 release_date: 2023-09-03 
-submission_link: 
+submission_link: https://blackboard.umbc.edu/ultra/courses/_76209_1/outline/assessment/test/_6357062_1?courseId=_76209_1
 
 ---
 
@@ -26,13 +26,13 @@ You can download the materials for this assignment here:
 {{page.title}}
 =============================================================
 
-# Learning Objectives
+## Learning Objectives
 This assignment will teach you to
 - find reputible research articles from a specific area that you find interesting
 - recognize & synthesize key points of a research paper
 - communicate key findings from a research paper
 
-# Instructions
+## Instructions
 - Pick a Module from 1-4: [sign-up sheet]()
   - Modules will be assigned to be as evenly distributed across the class as possible, keeping in mind your preferences.
   - Once you are assigned a Module, you will be told the approximate date when your presentation will be. (Since the lecture material moves around as the course progresses, the presentation dates might move as well.) 
@@ -46,16 +46,16 @@ This assignment will teach you to
 - [1 pt] **Present what you learned from the paper** to small groups in class. You're welcome to create a few slides to help you present to your group, but this is not required. We will take abou 10 minutes talking in separate groups and then 5 minutes coming together to share with the whole class.
 - 7 points total
 
-## Generative AI Policy
+### Generative AI Policy
 
 If you use ChatGPT (or similar chatbots or AI-based generation tools), you must describe exactly how you used it, including providing the prompt, the original generation, and your edits. This applies to prose, code, or any form of content creation. Not disclosing is an academic integrity violation. If you do disclose, your answer may receive anywhere from 0 to full credit, depending on the extent of substantive edits, achievement of the [learning objectives](#learning-objectives), and overall circumvention of those objectives.
 
 Use of AI/automatic tools for grammatical assistance (such as spell-checkers or Grammarly) or small-scale predictive text (e.g., next word prediction, tab completion) is okay. Provided the use of these tools does not change the substance of your work, use of these tools may be, but is not required to be, disclosed.
 
-## What to Submit
+### What to Submit
 
 1. [Fill out this form](), choosing what Module(s) you would like to present from --- due 9/8 at 11:59PM ET for everyone in the class.
-2. The summary, due 3PM the night before your presentation day.
+2. The summary, due 3PM the night before your presentation day. [Submission link](https://blackboard.umbc.edu/ultra/courses/_76209_1/outline/assessment/test/_6357062_1?courseId=_76209_1)
 3. No submission, but: Be prepared to discuss what you learned in class on your assigned presentation day.
 
 
