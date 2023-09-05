@@ -35,7 +35,7 @@ In this assignment, you will
 - communicate key findings from a research paper
 
 ## Instructions
-- Pick a Module from 1-4: [sign-up sheet]()
+- Pick a Module from 1-4: [sign-up sheet](https://docs.google.com/forms/d/e/1FAIpQLSfaVh0jst-vw9b7iJlOqKQ23550p1Qk9Xpn7K7QVfWY25dLLQ/viewform?usp=sf_link)
   - Modules will be assigned to be as evenly distributed across the class as possible, keeping in mind your preferences.
   - Once you are assigned a Module, you will be told the approximate date when your presentation will be. (Since the lecture material moves around as the course progresses, the presentation dates might move as well.) 
 - [1 pt] **Find a recent paper** (published within the past 5 years) from a reputable AI conference or journal. Your selection should be submitted to Lara & Aydin a week before your presentation & summary are due so that we can verify that your choice is a peer-reviewed article that is relevant to the Module. When you submit your selection, you will provide 1) the name of the article, 2) the authors of the article, 3) the link where the article can be found online, and 4) what class topic (i.e., lesson title) the article is relevant to.
@@ -56,7 +56,7 @@ Use of AI/automatic tools for grammatical assistance (such as spell-checkers or 
 
 ### What to Submit
 
-1. [Fill out this form](), choosing what Module(s) you would like to present from --- due 9/8 at 11:59PM ET for everyone in the class.
+1. [Fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSfaVh0jst-vw9b7iJlOqKQ23550p1Qk9Xpn7K7QVfWY25dLLQ/viewform?usp=sf_link), choosing what Module(s) you would like to present from --- due 9/8 at 11:59PM ET for everyone in the class.
 2. The summary, due 3PM the night before your presentation day. [Submission link](https://blackboard.umbc.edu/ultra/courses/_76209_1/outline/assessment/test/_6357062_1?courseId=_76209_1)
 3. No submission, but: Be prepared to discuss what you learned in class on your assigned presentation day.
 
