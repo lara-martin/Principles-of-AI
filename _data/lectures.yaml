@@ -1,6 +1,13 @@
 #-
 #  date: 2023-08-31
 #  title: Intro to the class
+#  slides:
+#  video:
+#  length:
+#  guest_speaker:
+#  guest_url:
+#  guest_speaker2:
+#  guest_url2:
 #  activities: 
 #    -
 #      title: Play a text adventure game
@@ -11,13 +18,17 @@
 #      url: text-adventure-game/text-adventure-game.html
 #type: deadline
 
+
+
 -
   date: 2023-08-31
   title: Introduction to AI
   activities: 
+  slides: slides/23-08-31_Intro.pdf
 -
   date: 2023-09-05
   title: Agents
+  slides: slides/23-09-05_Agents.pdf
 -
   date: 2023-09-07
   title: Agents & Uninformed Search
