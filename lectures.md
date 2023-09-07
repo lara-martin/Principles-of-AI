@@ -69,7 +69,7 @@ The lecture schedule will be updated as the term progresses. You can find more d
 	      <td width="19%">{{ lecture.date | date: '%a, %b %-d, %Y' }}</td>
 	      <td width="20%">
 		 {{ lecture.title }}<br>
-		 {% if mod_num %}(<a href="modules.html#module{{mod_num}}">Module {{mod_num}}</a>)
+		 {% if mod_num and lecture.type != 'no_lecture'%}(<a href="modules.html#module{{mod_num}}">Module {{mod_num}}</a>)
 			{% if lecture.slides %}
 			  <a href="{{ lecture.slides }}">[slides]</a>
 			{% endif %}
