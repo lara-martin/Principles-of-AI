@@ -33,14 +33,12 @@ The lecture schedule will be updated as the term progresses. You can find more d
 	    <!-- Find matching section in modules -->
 	    {% for module in site.data.modules %}
 		    {% for lesson in module.lessons %}
-      			{% if lecture.title %}
 			    {% if lecture.title contains lesson.title %}
 				    {% assign mod_num = module.module_number %}
 				    {% assign required = lesson.readings%}
 				    {% assign optional = lesson.optional%}
 				    {% break %}
 			    {% endif %}
-      			 {% endif %}
 		    {% endfor %}
 	    {% endfor %}
 
@@ -69,7 +67,7 @@ The lecture schedule will be updated as the term progresses. You can find more d
 	      <td width="19%">{{ lecture.date | date: '%a, %b %-d, %Y' }}</td>
 	      <td width="20%">
 		 {{ lecture.title }}<br>
-		 {% if mod_num and lecture.type != 'no_lecture'%}(<a href="modules.html#module{{mod_num}}">Module {{mod_num}}</a>)
+		 {% if mod_num and lecture.type != 'no_lecture' and lecture.title != "" %}(<a href="modules.html#module{{mod_num}}">Module {{mod_num}}</a>)
 			{% if lecture.slides %}
 			  <a href="{{ lecture.slides }}">[slides]</a>
 			{% endif %}
