@@ -13,7 +13,6 @@ active_tab: modules
 
 {% for module in site.data.modules %}
 
-
 <!-- Create a HTML anchor for the most recent module -->
 {% capture module_start_date %}{{module.start_date | date: '%s'}}{% endcapture %}
 {% capture module_end_date %}{{module.end_date | date: '%s'}}{% endcapture %}
@@ -49,9 +48,30 @@ No homework for this module.
 
 
 {% for lesson in module.lessons %}
-### Lesson {{ forloop.index }}: {{lesson.title}}{% if lesson.slides %} [[Slides]]({{lesson.slides}}){% endif %}{%if lesson.video %} [[Video]]({{lesson.video}}){% endif %}
-{% if lesson.guest_speaker %} Guest Lecturer: <a href="{{ lesson.guest_url }}">{{lesson.guest_speaker}}</a>{% endif %}
-{% if lesson.guest_speaker2 %} and <a href="{{ lesson.guest_url2 }}">{{lesson.guest_speaker2}}</a>{% endif %}
+    {% assign mod_num = nil %}
+    {% assign slides = nil%}
+    {% assign video = nil%}
+    {% assign speaker = nil%}
+    {% assign speaker_url = nil%}
+
+    <!-- Find matching section in modules -->
+    {% for lecture in site.data.lectures %}
+	    {% if lecture.title contains lesson.title %}
+		    {% assign mod_num = module.module_number %}
+		    {% assign slides = lecture.slides%}
+		    {% assign video = lecture.video%}
+		    {% assign speaker = lecture.guest_speaker%}
+		    {% assign speaker_url = lecture.guest_url%}
+		    {% assign speaker2 = lecture.guest_speaker2%}
+		    {% assign speaker_url2 = lecture.guest_url2%}
+		    {% break %}
+	    {% endif %}
+    {% endfor %}
+
+### Lesson {{ forloop.index }}: {{lesson.title}}
+
+{% if speaker %} Guest Lecturer: <a href="{{ speaker_url }}">{{guest_speaker}}</a>{% endif %}
+{% if speaker2 %} and <a href="{{ speaker_url2 }}">{{guest_speaker2}}</a>{% endif %}
 
 {% if lesson.presentations %}
 {% for pres in lesson.presentations %}
