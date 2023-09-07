@@ -81,19 +81,19 @@
       url:  
 -
   date: 2023-10-12
-  title: MDPs
+  title: Markov Decision Processes (MDPs)
 -
   date: 2023-10-17
-  title: MDPs
+  title: Markov Decision Processes (MDPs)
 -
   date: 2023-10-19
-  title: POMDPs
+  title: Partially Observable Markov Decision Processes (POMDPs)
 -
   date: 2023-10-24
-  title: Reinforcement Learning
+  title: Reinforcement Learning (RL)
 -
   date: 2023-10-26
-  title: Reinforcement Learning
+  title: Reinforcement Learning (RL)
   type: deadline
   homework_due:   
     -
