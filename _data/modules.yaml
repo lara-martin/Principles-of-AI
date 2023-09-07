@@ -165,7 +165,7 @@
   description: Stochastic. Decision every step. Everything before is episodic
   lessons:
     - 
-      title: MDPs
+      title: Markov Decision Processes (MDPs)
       video: 
       length: 
       slides: 
@@ -175,7 +175,7 @@
           url: 
           title: AIMA, Chapter 16.1-16.3, 17.1-17.2
     - 
-      title: POMDPs
+      title: Partially Observable Markov Decision Processes (POMDPs)
       video: 
       length: 
       slides: 
@@ -185,7 +185,7 @@
           url: 
           title: AIMA, Chapter 4.4-4.5, 17.4, 5.6
     - 
-      title: Reinforcement Learning
+      title: Reinforcement Learning (RL)
       video: 
       length: 
       slides: 
