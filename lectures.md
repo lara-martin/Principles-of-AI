@@ -68,27 +68,27 @@ The lecture schedule will be updated as the term progresses. You can find more d
 	      <td width="20%">
 		 {{ lecture.title }}<br>
 		 {% if mod_num %}(<a href="modules.html#module{{mod_num}}">Module {{mod_num}}</a>)
-			{% if slides %}
-			  <a href="{{ slides }}">[slides]</a>
+			{% if lecture.slides %}
+			  <a href="{{ lecture.slides }}">[slides]</a>
 			{% endif %}
 
-			{% if video %}
-			  <a href="{{ video }}">[video] </a>
+			{% if lecture.video %}
+			  <a href="{{ lecture.video }}">[video] </a>
 			{% endif %}
 
-			{% if speaker %}
-			  {% if speaker_url %}
-			    by <a href="{{ speaker_url }}">{{ speaker }}</a> 
+			{% if lecture.guest_speaker %}
+			  {% if lecture.guest_url %}
+			    by <a href="{{ lecture.guest_url }}">{{ lecture.guest_speaker }}</a> 
 			  {% else %} 
-			  by {{ speaker }}
+			  by {{ lecture.guest_speaker }}
 			  {% endif %}
 			{% endif %}
-		      	{% if speaker2 %}
+		      	{% if lecture.guest_speaker2 %}
 		      	  and
-			  {% if speaker_url2 %}
-			    <a href="{{ speaker_url2 }}">{{ speaker2 }}</a> 
+			  {% if lecture.guest_url2 %}
+			    <a href="{{ lecture.guest_url2 }}">{{ lecture.guest_speaker2 }}</a> 
 			  {% else %} 
-			    {{ speaker2 }}
+			    {{ lecture.guest_speaker2 }}
 			  {% endif %}
 			{% endif %}
 		{% endif %}
