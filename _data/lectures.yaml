@@ -20,7 +20,8 @@
   title: Agents
 -
   date: 2023-09-07
-  title: Uninformed Search
+  title: Agents & Uninformed Search
+  slides: 23-09-07_Agents_Uninformed-Search.pdf
 -
   date: 2023-09-07
   title: Waitlists Deactivated
@@ -28,6 +29,7 @@
 -
   date: 2023-09-12
   title: Uninformed Search
+  
 -
   type: no_lecture
   date: 2023-09-13
