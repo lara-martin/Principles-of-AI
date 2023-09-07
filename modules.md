@@ -65,7 +65,6 @@ No homework for this module.
 		    {% assign speaker_url = lecture.guest_url%}
 		    {% assign speaker2 = lecture.guest_speaker2%}
 		    {% assign speaker_url2 = lecture.guest_url2%}
-                    {% if lecture.slides %} [[slides]]({{ lecture.slides }}){% endif %}
       		    
 	    {% endif %}
     {% endfor %}
