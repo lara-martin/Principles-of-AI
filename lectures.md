@@ -33,12 +33,14 @@ The lecture schedule will be updated as the term progresses. You can find more d
 	    <!-- Find matching section in modules -->
 	    {% for module in site.data.modules %}
 		    {% for lesson in module.lessons %}
+      			{% if lecture.title %}
 			    {% if lecture.title contains lesson.title %}
 				    {% assign mod_num = module.module_number %}
 				    {% assign required = lesson.readings%}
 				    {% assign optional = lesson.optional%}
 				    {% break %}
 			    {% endif %}
+      			 {% endif %}
 		    {% endfor %}
 	    {% endfor %}
 
