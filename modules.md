@@ -54,7 +54,7 @@ No homework for this module.
     {% assign speaker = nil%}
     {% assign speaker_url = nil%}
 
-    <!-- Find matching section in modules -->
+
     {% for lecture in site.data.lectures %}
 	    {% if lecture.title contains lesson.title %}
 		    {% assign mod_num = module.module_number %}
