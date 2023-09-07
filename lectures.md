@@ -29,25 +29,14 @@ The lecture schedule will be updated as the term progresses. You can find more d
     {% for lecture in site.data.lectures %}
 	    {% assign required = nil %}
 	    {% assign optional = nil %}
-	    {% assign mod_num = nil %}
-	    {% assign slides = nil%}
-	    {% assign video = nil%}
-	    {% assign speaker = nil%}
-	    {% assign speaker_url = nil%}
 
 	    <!-- Find matching section in modules -->
 	    {% for module in site.data.modules %}
 		    {% for lesson in module.lessons %}
-			    {% if lecture.title == lesson.title %}
+			    {% if lecture.title contains lesson.title %}
 				    {% assign mod_num = module.module_number %}
 				    {% assign required = lesson.readings%}
 				    {% assign optional = lesson.optional%}
-				    {% assign slides = lesson.slides%}
-				    {% assign video = lesson.video%}
-				    {% assign speaker = lesson.guest_speaker%}
-				    {% assign speaker_url = lesson.guest_url%}
-				    {% assign speaker2 = lesson.guest_speaker2%}
-				    {% assign speaker_url2 = lesson.guest_url2%}
 				    {% break %}
 			    {% endif %}
 		    {% endfor %}
