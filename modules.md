@@ -48,6 +48,7 @@ No homework for this module.
 
 
 {% for lesson in module.lessons %}
+### Lesson {{ forloop.index }}: {{lesson.title}}
     {% assign mod_num = nil %}
     {% assign slides = nil%}
     {% assign video = nil%}
@@ -64,11 +65,12 @@ No homework for this module.
 		    {% assign speaker_url = lecture.guest_url%}
 		    {% assign speaker2 = lecture.guest_speaker2%}
 		    {% assign speaker_url2 = lecture.guest_url2%}
-		    {% break %}
+                    {% if lecture.slides %} <a href="{{ lecture.slides}}">[slides]</a>{% endif %}
+      		    
 	    {% endif %}
     {% endfor %}
 
-### Lesson {{ forloop.index }}: {{lesson.title}}
+
 
 {% if speaker %} Guest Lecturer: <a href="{{ speaker_url }}">{{guest_speaker}}</a>{% endif %}
 {% if speaker2 %} and <a href="{{ speaker_url2 }}">{{guest_speaker2}}</a>{% endif %}
