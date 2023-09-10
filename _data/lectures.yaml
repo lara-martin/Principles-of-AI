@@ -61,7 +61,7 @@
   homework_due:   
     -
       title: "HW1: Search (10%)"
-      url:
+      url: search/search.html
 -
   date: 2023-09-28
   title: Propositional Logic
