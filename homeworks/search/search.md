@@ -25,7 +25,7 @@ submission_link: https://blackboard.umbc.edu/ultra/courses/_76209_1/outline/asse
 <h2>Homework 1: Search in Pac-Man (10%)</h2>
 
 <div class="alert alert-warning" markdown="1">
-<b>IMPORTANT:</b> You are <b>not</b> allowed to use ChatGPT or any other LLMs to help you with this assignment.<br><br>
+<b>IMPORTANT:</b> You are <b>not</b> allowed to use ChatGPT or any other LLMs for this assignment.<br><br>
 Due {{page.due_date | date: "%B %-d, %Y at %r"}}
 on <a href="{{page.submission_link}}">Blackboard</a>.<br><br>
 Materials: 
