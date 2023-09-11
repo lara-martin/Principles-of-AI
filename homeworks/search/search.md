@@ -22,15 +22,17 @@ readings:
 submission_link: https://blackboard.umbc.edu/ultra/courses/_76209_1/outline/assessment/test/_6357098_1?courseId=_76209_1
 ---
 
-<h2>Homework 1: Search in Pac-Man</h2>
+<h2>Homework 1: Search in Pac-Man (10%)</h2>
 
 <div class="alert alert-warning" markdown="1">
+<b>IMPORTANT:</b> You are not allowed to use ChatGPT or any other LLMs to help you with this assignment.<br>
 Due {{page.due_date | date: "%B %-d, %Y at %r"}}
 on <a href="{{page.submission_link}}">Blackboard</a>.<br><br>
 Materials: 
 {% for material in page.materials %}
 <a href="{{material.url}}">{{material.name}}</a><br>
 {% endfor %}
+
 </div>
 
 <blockquote>
@@ -39,6 +41,13 @@ Materials:
     </center>
       <p><cite></cite></p>
 </blockquote>
+
+<h3>Learning Objectives</h3>
+In this assignment, you will
+    - implement DFS, BFS, uniform cost graph search, and A*
+    - create a search heuristic for A*
+    - implement a greedy heuristic
+
 
 <h3>Introduction</h3>
 
@@ -128,9 +137,12 @@ during the assignment. You should submit these files with your code and comments
 </p><p><strong>Evaluation:</strong> Your code will be autograded for technical
 correctness, using the same autograder and test cases you are provided with. Please <em>do not</em> change the names of any provided functions or classes within the code, or you will wreak havoc on the autograder. You should ensure your code passes all the test cases before submitting the solution, as we will not give any points for any questions if not all the test cases for it pass. <em>However</em>, the correctness of your implementation -- not the autograder's judgements -- will be the final judge of your score. Even if your code passes the autograder, we reserve the right to check it for mistakes in implementation, though this should only be a problem if your code takes too long or you disregarded announcements regarding the homework.
 
-</p><p><strong>Academic Dishonesty:</strong> We will be checking your code against other submissions in the class for logical redundancy. If you copy someone
-else's code and submit it with minor changes, we will know. These cheat
-detectors are quite hard to fool, so please don't try. We trust you all to
+</p>
+
+<p><strong>Collaboration:</strong> You <em>are</em> allowed to collaborate in pairs on this homework Please make sure both of your names are in the zip file name and that you are in a group together for the assignment on Blackboard.</p>
+
+<p><strong>Academic Dishonesty:</strong> We will be checking your code against other submissions in the class for logical redundancy. If you copy someone
+else/another pair's code and submit it with minor changes, we will know. We trust you all to
 submit your own work only; <em>please</em> don't let us down. Likewise, <em>do not</em> attempt to write your code specifically to pass the autograder's tests. Either copying or trying to cheat the autograder will be considered violations of the student honor code.
 
 </p><p><strong>Getting Help:</strong> You are not alone!  If you find yourself stuck on something, contact the course staff for help.  Office hours and Slack are there for your support; please use them.  If you can't make our office hours, let us know and we will schedule more.  We want these homeworks to be rewarding and instructional, not frustrating and demoralizing.  But, we don't know when or how to help unless you ask.
@@ -478,7 +490,7 @@ computation will receive an in-class demonstration of their brilliant Pac-Man ag
 
  
 <h4> What to Submit </h4>
-    <p> Zip only the files you altered for this assignment as a .zip <b> named with the first letter of your first name, your last name, and homework number</b> (example: lmartin_hw1.zip) and submit it on Blackboard before the due date. 
+    <p> Zip only the files you altered for this assignment as a .zip <b> named with the first letter of your first name, your last name, and homework number</b> (example: lmartin_hw1.zip) and submit it on Blackboard before the due date. If you are submitting as a pair, please label the file with both of your last names and the homework number (example: martin_ayanzadeh_hw1.zip).
     <br>
     <a href="{{page.submission_link}}">Submission link</a>
     </p>
