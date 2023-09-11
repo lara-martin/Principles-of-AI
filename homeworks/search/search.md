@@ -490,7 +490,7 @@ computation will receive an in-class demonstration of their brilliant Pac-Man ag
     <p> There is a <code>mazeDistance</code> helper function that you can use if you need to. This function finds the distance between two coordinates, accounting for walls. </p>
 
  
-<h4> What to Submit </h4>
+<h3> What to Submit </h3>
     <p> Zip only the files you altered for this assignment as a .zip <b> named with the first letter of your first name, your last name, and homework number</b> (example: lmartin_hw1.zip) and submit it on Blackboard before the due date. If you are submitting as a pair, please label the file with both of your last names and the homework number (example: martin_ayanzadeh_hw1.zip).
     <br>
     <a href="{{page.submission_link}}">Submission link</a>
@@ -505,7 +505,7 @@ computation will receive an in-class demonstration of their brilliant Pac-Man ag
 
 
 <div class="alert alert-warning" markdown="1">
-<h4> Grading Summary</h4>
+<h3> Grading Summary</h3>
 - Question 1 - 2 points
 - Question 2 - 2 points
 - Question 3 - 2 points
