@@ -44,10 +44,11 @@ Materials:
 
 <h3>Learning Objectives</h3>
 In this assignment, you will
-    - implement DFS, BFS, uniform cost graph search, and A*
-    - create a search heuristic for A*
-    - implement a greedy heuristic
-
+<ul>
+    <li>implement DFS, BFS, uniform cost graph search, and A*</li>
+    <li>create a search heuristic for A*</li>
+    <li>implement a greedy heuristic</li>
+</ul>
 
 <h3>Introduction</h3>
 
