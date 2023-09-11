@@ -52,7 +52,7 @@ In this assignment, you will
 
 <h3>Introduction</h3>
 
-<p>In this homework, your Pac-Man agent will find paths through his maze world, both to reach a particular location and to collect food efficiently.  You will build general search algorithms and apply them to Pac-Man scenarios. </p>
+<p>Your Pac-Man agent will find paths through his maze world, both to reach a particular location and to collect food efficiently.  You will build general search algorithms and apply them to Pac-Man scenarios. </p>
 
 <p>
 This homework includes an autograder for you to grade your answers on your machine.
