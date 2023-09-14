@@ -190,7 +190,10 @@ Soon, your agent will solve not only <code>tinyMaze</code>, but any maze you wan
 Also, all of the commands that appear in this homework also appear in <a target="_blank" href="search/commands.txt">commands.txt</a>, for easy copying and pasting.  In UNIX/Mac OS X, you can even run all these commands in order with <code>bash commands.txt</code>.
 </p>
 
-  
+<div class="alert alert-warning">
+<p>If you are getting errors regarding Tkinter, you might have to install it: <a href="https://tkdocs.com/tutorial/install.html#installlinux" target="_blank">Linux</a>, <a href="https://tkdocs.com/tutorial/install.html#installmac" target="_blank">Mac</a>, <a href="https://tkdocs.com/tutorial/install.html#installwin" target="_blank">Windows</a></p>
+</div>
+
 <h3> Object Glossary </h3>
 
 <p> Here's a glossary of the key objects in the code base related to search problems, for your reference:
