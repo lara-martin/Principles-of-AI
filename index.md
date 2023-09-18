@@ -122,6 +122,7 @@ Asynchronous questions to the instructor & TA or discussions with fellow classma
 Class Knowledge Checks
 : These checks are in place to see how well you all are understanding the material as the course goes. These might look like clicker questions (using Poll Everywhere), "minute" questions to get you to think about the ethics of an AI topic, or a small in-class assignment. These will not be graded for accuracy, just whether or not you did them.
 If you cannot attend a lecture for any reason, you can make up the "minute" questions or assignments in your own time. [Please ask Lara & Aydin](mailto:laramar@umbc.edu;aydina1@umbc.edu?subject=[CMSC 671] Make-up clicker question) if you need to make up a day where we did only clicker questions.
+Your two lowest grade class knowledge checks (i.e., incomplete or missing submissions) will be dropped.
 
 Paper Presentations
 : Throughout the semester, each student must select a Module and find a research paper relevant to the selected Module, showing how these methods are still used in research today. You will have a specified presentation day where you will informally present what you learned about the paper in small groups and then your group will share the key points with the rest of the class. The night before you present, a short 1-page summary of the paper will be due. More information about the presentation/summary can be found [here](https://laramartin.net/Principles-of-AI/homeworks/presentations.html).
