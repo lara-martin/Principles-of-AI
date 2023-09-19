@@ -45,6 +45,7 @@ In this assignment, you will
   - what are the strengths of the paper?
   - what are the weaknesses of the paper?
   - are there any ethical concerns that people should consider if they were to replicate the paper or use any of the methods/data/etc. that are introduced in the paper?
+  - (no points but required at the end of the summary) the names of anyone you talked to about the paper and/or how you used LLMs (if you did). Please see the [Generative AI Policy](#generative-ai-policy) for more information on how to cite LLM use. If you did not receive any help, please state that instead.
 - [1 pt] **Present what you learned from the paper** to small groups in class. You're welcome to create a few slides to help you present to your group, but this is not required. We will take abou 10 minutes talking in separate groups and then 5 minutes coming together to share with the whole class.
 - 7 points total
 
