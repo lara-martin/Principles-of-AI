@@ -55,8 +55,21 @@
   title: Informed Search
   slides: slides/23-09-19_Informed-Search.pdf
 -
+  date: 2023-09-20
+  type: no_lecture
+  homework_due:   
+    -
+      title: "Module 1 Summary"
+      url: presentations.html    
+-
   date: 2023-09-21
   title: Local Search
+  type: deadline
+  homework_due:   
+    -
+      title: "Module 1 Presentations"
+      url: presentations.html
+  
 -
   date: 2023-09-26
   title: Multi-Agent Search
@@ -72,8 +85,20 @@
   date: 2023-10-03
   title: Propositional Logic
 -
+  date: 2023-10-04
+  type: no_lecture
+  homework_due:   
+    -
+      title: "Module 2 Summary"
+      url: presentations.html  
+-
   date: 2023-10-05
   title: Knowledge Representation
+  type: deadline
+  homework_due:   
+    -
+      title: "Module 2 Presentations"
+      url: presentations.html
 -
   date: 2023-10-10
   title: Planning
@@ -89,8 +114,20 @@
   date: 2023-10-17
   title: Markov Decision Processes (MDPs)
 -
+  date: 2023-10-18
+  type: no_lecture
+  homework_due:   
+    -
+      title: "Module 3 Summary"
+      url: presentations.html  
+-
   date: 2023-10-19
   title: Partially Observable Markov Decision Processes (POMDPs)
+  type: deadline
+  homework_due:   
+    -
+      title: "Module 3 Presentations"
+      url: presentations.html
 -
   date: 2023-10-24
   title: Reinforcement Learning (RL)
@@ -127,8 +164,20 @@
   date: 2023-11-14
   title: Bayes Nets
 -
+  date: 2023-11-15
+  type: no_lecture
+  homework_due:   
+    -
+      title: "Module 4 Summary"
+      url: presentations.html    
+-
   date: 2023-11-16
   title: Bayes Nets
+  type: deadline
+  homework_due:   
+    -
+      title: "Module 4 Presentations"
+      url: presentations.html
 -
   date: 2023-11-21
   title: Naive Bayes
