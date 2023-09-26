@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Paper Presentation (10%)
+title: Paper Group Presentation (10%)
 active_tab: homework
 release_date: 2023-09-03 
 submission_link: https://blackboard.umbc.edu/ultra/courses/_76209_1/outline/assessment/test/_6357062_1?courseId=_76209_1
