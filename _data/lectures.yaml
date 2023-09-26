@@ -68,7 +68,7 @@
   type: deadline
   homework_due:   
     -
-      title: "Module 1 Presentations"
+      title: "Module 1 Group Presentations"
       url: presentations.html
   
 -
@@ -98,7 +98,7 @@
   type: deadline
   homework_due:   
     -
-      title: "Module 2 Presentations"
+      title: "Module 2 Group Presentations"
       url: presentations.html
 -
   date: 2023-10-10
@@ -127,7 +127,7 @@
   type: deadline
   homework_due:   
     -
-      title: "Module 3 Presentations"
+      title: "Module 3 Group Presentations"
       url: presentations.html
 -
   date: 2023-10-24
@@ -177,7 +177,7 @@
   type: deadline
   homework_due:   
     -
-      title: "Module 4 Presentations"
+      title: "Module 4 Group Presentations"
       url: presentations.html
 -
   date: 2023-11-21
