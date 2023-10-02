@@ -52,7 +52,7 @@ In this assignment, you will:
       a. [5 points] the agent's actions & percepts
       b. [10 points] the logic at each step
 
-### Part 2: Analyze it
+### Part 2: Analyze it (Answer in natural language)
 4. [3 points] For any of the scenarios, were there any steps where the agent could have used a different logic rule and have still succeeded? If so, would the path have differed? If not, why not?
 5. [2 points] Which scenario required the most actions to solve?
 6. [2 points] How efficient was your agent? Was there a shorter path available that it didn't take?
@@ -61,14 +61,14 @@ In this assignment, you will:
 9. [5 points] How does a logical agent like this compare to a search agent?
 10. [5 points] Could you integrate a search algorithm into this agent? If so, how? If not, why not?
 
-### Part 3: Feedback
+### Part 3: Feedback (Answer in natural language)
 11. [1 point] Approximately how long did you spend on this assignment?
 12. [1 point] Which aspects of this assignment did you find most challenging? Were there any significant stumbling blocks?
 13. [1 point] Which aspects of this assignment did you like? Is there anything you would have changed?
 
  
 <h3> What to Submit </h3>
-   Upload your ipynb file <b> named with the first letter of your first name, your last name, and homework number</b> (example: lmartin_hw1.ipynb) and submit it on Blackboard before the due date. If you are submitting as a pair, please label the file with both of your last names and the homework number (example: martin_ayanzadeh_hw1.ipynb).
+   Create a zip with your ipynb file and a pdf with the answers to Questions 3-13 <b> named with the first letter of your first name, your last name, and homework number</b> (example: lmartin_hw1.zip) and submit it on Blackboard before the due date. If you are submitting as a pair, please label the file with both of your last names and the homework number (example: martin_ayanzadeh_hw1.zip).
     <br>
     <a href="{{page.submission_link}}">Submission link</a>
   
