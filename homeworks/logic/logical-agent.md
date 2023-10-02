@@ -45,14 +45,14 @@ In this assignment, you will:
    <li> Evaluate the effectiveness of your inference algorithm in guiding the agent's behavior in different Wampa World scenarios</li>
 </ul>
 
-### Part 1: Implement the agent
+<h3>Part 1: Implement the agent</h3>
 1.    [3 points] Implement the knowledgeBase() function in the Agent class
 2.    [10 points] Implement the inferenceAlgorithm() function in the Agent class
 3.    For a successful path for each scenario, report
       a. [5 points] the agent's actions & percepts
       b. [10 points] the logic at each step
 
-### Part 2: Analyze it (Answer in natural language)
+<h3>Part 2: Analyze it (Answer in natural language)</h3>
 4. [3 points] For any of the scenarios, were there any steps where the agent could have used a different logic rule and have still succeeded? If so, would the path have differed? If not, why not?
 5. [2 points] Which scenario required the most actions to solve?
 6. [2 points] How efficient was your agent? Was there a shorter path available that it didn't take?
@@ -61,7 +61,7 @@ In this assignment, you will:
 9. [5 points] How does a logical agent like this compare to a search agent?
 10. [5 points] Could you integrate a search algorithm into this agent? If so, how? If not, why not?
 
-### Part 3: Feedback (Answer in natural language)
+<h3>Part 3: Feedback (Answer in natural language)</h3>
 11. [1 point] Approximately how long did you spend on this assignment?
 12. [1 point] Which aspects of this assignment did you find most challenging? Were there any significant stumbling blocks?
 13. [1 point] Which aspects of this assignment did you like? Is there anything you would have changed?
