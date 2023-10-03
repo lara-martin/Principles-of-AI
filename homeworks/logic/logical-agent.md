@@ -75,7 +75,7 @@ These questions depend on Part 1, so be sure to finish Part 1 first.<br>
 
  
 <h3> What to Submit </h3>
-   Create a zip with your ipynb file and a pdf with the answers to Questions 3-12 <b> named with the first letter of your first name, your last name, and homework number</b> (example: lmartin_hw1.zip) and submit it on Blackboard before the due date. If you are submitting as a pair, please label the file with both of your last names and the homework number (example: martin_ayanzadeh_hw1.zip).
+   Create a zip with your ipynb file and a pdf with the answers to Questions 3-12 <b> named with the first letter of your first name, your last name, and homework number</b> (example: lmartin_hw2.zip) and submit it on Blackboard before the due date. If you are submitting as a pair, please label the file with both of your last names and the homework number (example: martin_ayanzadeh_hw2.zip).
     <br>
     <a href="{{page.submission_link}}">Submission link</a>
   
