@@ -64,12 +64,14 @@ These questions depend on Part 1, so be sure to finish Part 1 first.<br>
 <li>[3 points] Where might you use a logical agent like this in the real world?</li>
 <li>[3 points] How does a logical agent like this compare to a search agent?</li>
 <li>[3 points] Could you integrate a search algorithm into this agent? If so, how? If not, why not?</li>
+</ol>
 
 <h3>Part 4: Feedback (Answer in natural language)</h3>
 <ol start="10">
 <li> [1 point] Approximately how long did you spend on this assignment?</li>
 <li> [1 point] Which aspects of this assignment did you find most challenging? Were there any significant stumbling blocks?</li>
 <li> [1 point] Which aspects of this assignment did you like? Is there anything you would have changed?</li>
+</ol>
 
  
 <h3> What to Submit </h3>
