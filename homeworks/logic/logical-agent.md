@@ -53,19 +53,23 @@ In this assignment, you will:
 
 <h3>Part 2: Analyze it (Answer in natural language)</h3>
 These questions depend on Part 1, so be sure to finish Part 1 first.<br>
-4. [2 points] Were there any steps where the agent could have used a different logic rule and have still succeeded? If so, select one step and explain whether it would change its path. If not, explain why not. <br>
-5. [2 points] How efficient was your agent? Was there ever a shorter path available that it didn't take?<br>
-6. [2 point] Were there any steps where the agent was navigating "blindly" (i.e., without any information about a particular square)? Where?
+<ol start="4">
+<li>[2 points] Were there any steps where the agent could have used a different logic rule and have still succeeded? If so, select one step and explain whether it would change its path. If not, explain why not. </li>
+<li>[2 points] How efficient was your agent? Was there ever a shorter path available that it didn't take?</li>
+<li>[2 point] Were there any steps where the agent was navigating "blindly" (i.e., without any information about a particular square)? Where?</li>
+</ol>
 
 <h3>Part 3: Expand your thinking (Answer in natural language)</h3>
-7. [3 points] Where might you use a logical agent like this in the real world?<br>
-8. [3 points] How does a logical agent like this compare to a search agent?<br>
-9. [3 points] Could you integrate a search algorithm into this agent? If so, how? If not, why not?<br>
+<ol start="7">
+<li>[3 points] Where might you use a logical agent like this in the real world?</li>
+<li>[3 points] How does a logical agent like this compare to a search agent?</li>
+<li>[3 points] Could you integrate a search algorithm into this agent? If so, how? If not, why not?</li>
 
 <h3>Part 4: Feedback (Answer in natural language)</h3>
-10. [1 point] Approximately how long did you spend on this assignment?<br>
-11. [1 point] Which aspects of this assignment did you find most challenging? Were there any significant stumbling blocks?<br>
-12. [1 point] Which aspects of this assignment did you like? Is there anything you would have changed?
+<ol start="10">
+<li> [1 point] Approximately how long did you spend on this assignment?</li>
+<li> [1 point] Which aspects of this assignment did you find most challenging? Were there any significant stumbling blocks?</li>
+<li> [1 point] Which aspects of this assignment did you like? Is there anything you would have changed?</li>
 
  
 <h3> What to Submit </h3>
