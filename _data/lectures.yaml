@@ -78,7 +78,7 @@
   type: deadline
   homework_due:   
     -
-      title: "HW1: Search (10%)"
+      title: "HW1: Search in Pac-Man (10%)"
       url: search/search.html
 -
   date: 2023-09-28
@@ -108,8 +108,8 @@
   type: deadline
   homework_due:   
     -
-      title: "HW2: Logical Agents (10%)"
-      url:  
+      title: "HW2: Hunt the Wampa (10%)"
+      url:  logic/logical-agent.html
 -
   date: 2023-10-12
   title: Markov Decision Processes (MDPs)
