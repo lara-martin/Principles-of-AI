@@ -8,7 +8,7 @@ submission_link: https://blackboard.umbc.edu/ultra/courses/_76209_1/outline/asse
 ---
 
 <div class="alert alert-info">
-The summary assignment is due before 3PM ET the day before your presentation. 
+The summary assignment is due before 11:59PM ET the day before your presentation. 
 </div>
 
 {% if page.materials %}
