@@ -131,7 +131,7 @@
           url: 
           title: AIMA, Chapter 7.1-7.5     
     - 
-      title: Knowledge Representation
+      title: First-Order Logic
       video: 
       length: 
       slides: 
@@ -139,7 +139,7 @@
         -
           authors: Stuart Russell & Peter Norvig
           url: 
-          title: AIMA, Chapter 10.1, 10.2, 10.5
+          title: AIMA, Chapters 8.1.2, 8.2, 8.3, 9.3
     - 
       title: Planning
       video: 
