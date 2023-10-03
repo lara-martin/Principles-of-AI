@@ -5,6 +5,7 @@ img_link:
 caption: Wampa World
 title: Logical Agents
 type: Homework
+url: Principles-of-AI/homeworks/logic/logical-agent.html
 number: 2
 active_tab: homework
 release_date: 2023-09-31
