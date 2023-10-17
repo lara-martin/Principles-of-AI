@@ -117,15 +117,15 @@
 -
   date: 2023-10-17
   title: Markov Decision Processes (MDPs)
+
+-
+  date: 2023-10-19
+  title: Partially Observable Markov Decision Processes (POMDPs)
   type: deadline
   homework_due:   
     -
       title: "HW2: Hunt the Wampa (10%)"
       url:  logic/logical-agent.html
-
--
-  date: 2023-10-19
-  title: Partially Observable Markov Decision Processes (POMDPs)
 
 -
   date: 2023-10-23
