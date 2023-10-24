@@ -116,11 +116,13 @@
   guest_speaker: Dr. Cassie Kent
 -
   date: 2023-10-17
-  title: Markov Decision Processes (MDPs)
+  type: no_lecture
 
 -
   date: 2023-10-19
-  title: Partially Observable Markov Decision Processes (POMDPs)
+  title: Markov Decision Processes (MDPs)
+  slides: slides/23-10-19_MDPs.pdf
+  guest_speaker: Dr. Frank Ferraro
   type: deadline
   homework_due:   
     -
