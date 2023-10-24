@@ -162,7 +162,7 @@
   start_date: 2023-10-12
   end_date: 2023-10-26
   title: Sequential Decision Making
-  description: Stochastic. Decision every step. Everything before is episodic
+  description:
   lessons:
     - 
       title: Markov Decision Processes (MDPs)
@@ -174,16 +174,7 @@
           authors: Stuart Russell & Peter Norvig
           url: 
           title: AIMA, Chapter 16.1-16.3, 17.1-17.2
-    - 
-      title: Partially Observable Markov Decision Processes (POMDPs)
-      video: 
-      length: 
-      slides: 
-      readings:
-        -
-          authors: Stuart Russell & Peter Norvig
-          url: 
-          title: AIMA, Chapter 4.4-4.5, 17.4, 5.6
+
     - 
       title: Reinforcement Learning (RL)
       video: 
