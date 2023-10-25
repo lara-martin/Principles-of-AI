@@ -11,7 +11,7 @@ release_date: 2023-10-26
 due_date: 2023-11-14 23:59:00EST
 materials:
     - 
-        name: *new* Pac-Man files (zip)
+        name: GridWorld/Pac-Man files (zip)
         url: https://laramartin.net/Principles-of-AI/homeworks/sequential/hw3-pacman-files.zip
 
 readings:
@@ -20,6 +20,7 @@ readings:
         authors: Peter Norvig and Stuart J. Russell
 
 submission_link: https://blackboard.umbc.edu/ultra/courses/_76209_1/grades/assessment/test/_6357100_1?courseId=_76209_1
+
 ---
 
 <h2>Homework 3: Reinforcement Learning in GridWorld & Pac-Man (10%)</h2>
