@@ -218,7 +218,7 @@ submit your own work only; <em>please</em> don't let us down. Likewise, <em>do n
 <pre>python gridworld.py -a value -i 100 -k 10</pre>
 <p><em>Hint:</em> On the default BookGrid, running value iteration for 5 iterations should give you this output:</p>
 <pre>python gridworld.py -a value -i 5</pre>
-<center><img src="./value.png" width="25%" alt="value iteration with k=5"></center>
+<center><img src="./value.png" width="50%" alt="value iteration with k=5"></center>
 <p><em>Grading:</em> Your value iteration agent will be graded on a new grid. We will check your values, Q-values, and policies after fixed numbers of iterations and at convergence (e.g. after 100 iterations).</p>
 
 
@@ -231,7 +231,7 @@ submit your own work only; <em>please</em> don't let us down. Likewise, <em>do n
 
 <h3><a name="Q3"></a>Question 3 (5 points): Policies</h3>
 <p>Consider the <code>DiscountGrid</code> layout, shown below. This grid has two terminal states with positive payoff (in the middle row), a close exit with payoff +1 and a distant exit with payoff +10. The bottom row of the grid consists of terminal states with negative payoff (shown in red); each state in this "cliff" region has payoff -10. The starting state is the yellow square. We distinguish between two types of paths: (1) paths that "risk the cliff" and travel near the bottom row of the grid; these paths are shorter but risk earning a large negative payoff, and are represented by the red arrow in the figure below. (2) paths that "avoid the cliff" and travel along the top edge of the grid. These paths are longer but are less likely to incur huge negative payoffs. These paths are represented by the green arrow in the figure below.</p>
-<center><img src="./discountgrid.png" width="25%" alt="DiscountGrid"></center>
+<center><img src="./discountgrid.png" width="50%" alt="DiscountGrid"></center>
 <p>In this question, you will choose settings of the discount, noise, and living reward parameters for this MDP to produce optimal policies of several different types. Your setting of the parameter values for each part should have the property that, if your agent followed its optimal policy without being subject to any noise, it would exhibit the given behavior. If a particular behavior is not achieved for any setting of the parameters, assert that the policy is impossible by returning the string <code>'NOT POSSIBLE'</code>.</p>
 <p>Here are the optimal policy types you should attempt to produce:</p>
 <ol type="a"><ol type="a">
@@ -256,7 +256,7 @@ submit your own work only; <em>please</em> don't let us down. Likewise, <em>do n
 <p>With the Q-learning update in place, you can watch your Q-learner learn under manual control, using the keyboard:</p>
 <pre>python gridworld.py -a q -k 5 -m</pre>
 <p>Recall that <code>-k</code> will control the number of episodes your agent gets to learn. Watch how the agent learns about the state it was just in, not the one it moves to, and "leaves learning in its wake." Hint: to help with debugging, you can turn off noise by using the <code>--noise 0.0</code> parameter (though this obviously makes Q-learning less interesting). If you manually steer Pac-Man north and then east along the optimal path for four episodes, you should see the following Q-values: </p>
-<center><img src="./q-learning.png" width="25%" alt="QLearning"></center>
+<center><img src="./q-learning.png" width="50%" alt="QLearning"></center>
 <p></p>
 <p><em>Grading:</em> We will run your Q-learning agent and check that it learns the same Q-values and policy as our reference implementation when each is presented with the same set of examples. To grade your implementation, run the autograder:</p>
 <pre>python autograder.py -q q4</pre>
