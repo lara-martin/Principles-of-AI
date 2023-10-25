@@ -19,10 +19,10 @@ readings:
         title: AIMA Chapter 
         authors: Peter Norvig and Stuart J. Russell
 
-submission_link: 
+submission_link: https://blackboard.umbc.edu/ultra/courses/_76209_1/grades/assessment/test/_6357100_1?courseId=_76209_1
 ---
 
-<h2>Homework 3: Reinforcement Learning in Pac-Man (10%)</h2>
+<h2>Homework 3: Reinforcement Learning in GridWorld & Pac-Man (10%)</h2>
 
 <div class="alert alert-warning" markdown="1">
 <b>IMPORTANT:</b> You are <b>not</b> allowed to use ChatGPT or any other LLMs for this assignment.<br><br>
@@ -50,7 +50,7 @@ In this assignment, you will
 
 <h3>Introduction</h3>
 
-<p>In this homework, you will implement value iteration and Q-learning. You will test your agents first on Gridworld (from class), then apply them to a simulated robot controller (Crawler) and Pacman.</p>
+<p>In this homework, you will implement value iteration and Q-learning. You will test your agents first on GridWorld (from class), then apply them to a simulated robot controller (Crawler) and Pac-Man.</p>
 <p>Like homework 1, this homework includes an autograder for you to grade your solutions on your machine. This can be run on all questions with the command:</p>
 <pre>python autograder.py</pre>
 <p>It can be run for one particular question, such as q2, by:</p>
@@ -69,7 +69,7 @@ In this assignment, you will
   </tr>
   <tr>
     <td><code><a href="code/qlearningAgents.py">qlearningAgents.py</a></code></td>
-    <td>Q-learning agents for Gridworld, Crawler and Pacman.</td>
+    <td>Q-learning agents for GridWorld, Crawler and Pac-Man.</td>
   </tr>
   <tr>
     <td><code><a href="code/analysis.py">analysis.py</a></code></td>
@@ -92,7 +92,7 @@ In this assignment, you will
   </tr>
   <tr>
     <td><code><a href="code/gridworld.py">gridworld.py</a></code></td>
-    <td>The Gridworld implementation.</td>
+    <td>The GridWorld implementation.</td>
   </tr>
   <tr>
     <td><code><a href="code/featureExtractors.py">featureExtractors.py</a></code></td>
@@ -107,7 +107,7 @@ In this assignment, you will
   </tr>
   <tr>
     <td><code><a href="code/graphicsGridworldDisplay.py">graphicsGridworldDisplay.py</a></code></td>
-    <td>Gridworld graphical display.</td>
+    <td>GridWorld graphical display.</td>
   </tr>
   <tr>
     <td><code><a href="code/graphicsUtils.py">graphicsUtils.py</a></code></td>
@@ -115,7 +115,7 @@ In this assignment, you will
   </tr>
   <tr>
     <td><code><a href="code/textGridworldDisplay.py">textGridworldDisplay.py</a></code></td>
-    <td>Plug-in for the Gridworld text interface.</td>
+    <td>Plug-in for the GridWorld text interface.</td>
   </tr>
   <tr>
     <td><code><a href="code/crawler.py">crawler.py</a></code></td>
@@ -167,17 +167,17 @@ submit your own work only; <em>please</em> don't let us down. Likewise, <em>do n
 
 
 <h3> MDPs</h3>
-  <p>To get started, run Gridworld in manual control mode, which uses the arrow keys:</p>
+  <p>To get started, run GridWorld in manual control mode, which uses the arrow keys:</p>
   <pre>python gridworld.py -m</pre>
-  <p>You will see the two-exit layout from class. The blue dot is the agent. Note that when you press <em>up</em>, the agent only actually moves north 80% of the time. Such is the life of a Gridworld agent!</p>
+  <p>You will see the two-exit layout from class. The blue dot is the agent. Note that when you press <em>up</em>, the agent only actually moves north 80% of the time. Such is the life of a GridWorld agent!</p>
   <p>You can control many aspects of the simulation. A full list of options is available by running:</p>
   <pre>python gridworld.py -h</pre>
   <p>The default agent moves randomly</p>
   <pre>python gridworld.py -g MazeGrid</pre>
   <p>You should see the random agent bounce around the grid until it happens upon an exit. Not the finest hour for an AI agent.</p>
-  <p><em>Note:</em> The Gridworld MDP is such that you first must enter a pre-terminal state (the double boxes shown in the GUI) and then take the special 'exit' action before the episode actually ends (in the true terminal state called <code>TERMINAL_STATE</code>, which is not shown in the GUI). If you run an episode manually, your total return may be less than you expected, due to the discount rate (<code>-d</code> to change; 0.9 by default).</p>
+  <p><em>Note:</em> The GridWorld MDP is such that you first must enter a pre-terminal state (the double boxes shown in the GUI) and then take the special 'exit' action before the episode actually ends (in the true terminal state called <code>TERMINAL_STATE</code>, which is not shown in the GUI). If you run an episode manually, your total return may be less than you expected, due to the discount rate (<code>-d</code> to change; 0.9 by default).</p>
   <p>Look at the console output that accompanies the graphical output (or use <code>-t</code> for all text). You will be told about each transition the agent experiences (to turn this off, use <code>-q</code>).</p>
-  <p>As in Pacman, positions are represented by <code>(x,y)</code> Cartesian coordinates and any arrays are indexed by <code>[x][y]</code>, with <code>'north'</code> being the direction of increasing <code>y</code>, etc. By default, most transitions will receive a reward of zero, though you can change this with the living reward option (<code>-r</code>).</p>
+  <p>As in Pac-Man, positions are represented by <code>(x,y)</code> Cartesian coordinates and any arrays are indexed by <code>[x][y]</code>, with <code>'north'</code> being the direction of increasing <code>y</code>, etc. By default, most transitions will receive a reward of zero, though you can change this with the living reward option (<code>-r</code>).</p>
 
 <h3><a name="Q1"></a>Question 1 (6 points): Value Iteration</h3>
 <p>Write a value iteration agent in <code>ValueIterationAgent</code>, which has been partially specified for you in <code>valueIterationAgents.py</code>. Your value iteration agent is an offline planner, not a reinforcement learning agent, and so the relevant training option is the number of iterations of value iteration it should run (option <code>-i</code>) in its initial planning phase. <code>ValueIterationAgent</code> takes an MDP on construction and runs value iteration for the specified number of iterations before the constructor returns.</p>
@@ -189,7 +189,7 @@ submit your own work only; <em>please</em> don't let us down. Likewise, <em>do n
 <p>These quantities are all displayed in the GUI: values are numbers in squares, Q-values are numbers in square quarters, and policies are arrows out from each square.</p>
 <p><em>Important:</em> Use the "batch" version of value iteration where each vector V<sub>k</sub> is computed from a fixed vector V<sub>k-1</sub> (like in lecture), not the "online" version where one single weight vector is updated in place. This means that when a state's value is updated in iteration k based on the values of its successor states, the successor state values used in the value update computation should be those from iteration k-1 (even if some of the successor states had already been updated in iteration k). The difference is discussed in <a href="https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf">Sutton &amp; Barto</a> in the 6th paragraph of chapter 4.1.</p>
 <p><em>Note:</em> A policy synthesized from values of depth k (which reflect the next k rewards) will actually reflect the next k+1 rewards (i.e. you return <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;&amp;#x03C0;&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 2.45em; display: inline-block;"><span style="display: inline-block; position: relative; width: 1.921em; height: 0px; font-size: 126%;"><span style="position: absolute; clip: rect(0.334em 1001.92em 1.392em -999.997em); top: -0.989em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="msubsup" id="MathJax-Span-3"><span style="display: inline-block; position: relative; width: 1.921em; height: 0px;"><span style="position: absolute; clip: rect(3.31em 1000.6em 4.17em -999.997em); top: -3.965em; left: 0em;"><span class="mi" id="MathJax-Span-4" style="font-family: MathJax_Math-italic;">&#960;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span style="display: inline-block; width: 0px; height: 3.972em;"></span></span><span style="position: absolute; top: -3.833em; left: 0.599em;"><span class="texatom" id="MathJax-Span-5"><span class="mrow" id="MathJax-Span-6"><span class="mi" id="MathJax-Span-7" style="font-size: 70.7%; font-family: MathJax_Math-italic;">k</span><span class="mo" id="MathJax-Span-8" style="font-size: 70.7%; font-family: MathJax_Main;">+</span><span class="mn" id="MathJax-Span-9" style="font-size: 70.7%; font-family: MathJax_Main;">1</span></span></span><span style="display: inline-block; width: 0px; height: 3.972em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 0.995em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.329em; border-left: 0px solid; width: 0px; height: 1.004em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>&#960;</mi><mrow class="MJX-TeXAtom-ORD"><mi>k</mi><mo>+</mo><mn>1</mn></mrow></msub></math></span></span><script type="math/tex" id="MathJax-Element-1">\pi_{k+1}</script>). Similarly, the Q-values will also reflect one more reward than the values (i.e. you return Q<sub>k+1</sub>).</p>
-<p>You should return the synthesized policy <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-2-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;&amp;#x03C0;&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-10" style="width: 2.45em; display: inline-block;"><span style="display: inline-block; position: relative; width: 1.921em; height: 0px; font-size: 126%;"><span style="position: absolute; clip: rect(0.334em 1001.92em 1.392em -999.997em); top: -0.989em; left: 0em;"><span class="mrow" id="MathJax-Span-11"><span class="msubsup" id="MathJax-Span-12"><span style="display: inline-block; position: relative; width: 1.921em; height: 0px;"><span style="position: absolute; clip: rect(3.31em 1000.6em 4.17em -999.997em); top: -3.965em; left: 0em;"><span class="mi" id="MathJax-Span-13" style="font-family: MathJax_Math-italic;">&#960;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span style="display: inline-block; width: 0px; height: 3.972em;"></span></span><span style="position: absolute; top: -3.833em; left: 0.599em;"><span class="texatom" id="MathJax-Span-14"><span class="mrow" id="MathJax-Span-15"><span class="mi" id="MathJax-Span-16" style="font-size: 70.7%; font-family: MathJax_Math-italic;">k</span><span class="mo" id="MathJax-Span-17" style="font-size: 70.7%; font-family: MathJax_Main;">+</span><span class="mn" id="MathJax-Span-18" style="font-size: 70.7%; font-family: MathJax_Main;">1</span></span></span><span style="display: inline-block; width: 0px; height: 3.972em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 0.995em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.329em; border-left: 0px solid; width: 0px; height: 1.004em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>&#960;</mi><mrow class="MJX-TeXAtom-ORD"><mi>k</mi><mo>+</mo><mn>1</mn></mrow></msub></math></span></span><script type="math/tex" id="MathJax-Element-2">\pi_{k+1}</script>.</p>
+<p>You should return the synthesized policy <span style="display: inline-block; overflow: hidden; vertical-align: -0.329em; border-left: 0px solid; width: 0px; height: 1.004em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>&#960;</mi><mrow class="MJX-TeXAtom-ORD"><mi>k</mi><mo>+</mo><mn>1</mn></mrow></msub></math></span></span>.</p>
 <p><em>Hint:</em> Use the <code>util.Counter</code> class in <code>util.py</code>, which is a dictionary with a default value of zero. Methods such as <code>totalCount</code> should simplify your code. However, be careful with <code>argMax</code>: the actual argmax you want may be a key not in the counter!</p>
 <p><em>Note:</em> Make sure to handle the case when a state has no available actions in an MDP (think about what this means for future rewards).</p>
 <p>To test your implementation, run the autograder:</p>
@@ -230,12 +230,12 @@ submit your own work only; <em>please</em> don't let us down. Likewise, <em>do n
 <p><em>Grading:</em> We will check that the desired policy is returned in each case.</p>
 
  <h3><a name="Q4"></a>Question 4 (5 points): Q-Learning</h3>
-<p>Note that your value iteration agent does not actually learn from experience. Rather, it ponders its MDP model to arrive at a complete policy before ever interacting with a real environment. When it does interact with the environment, it simply follows the precomputed policy (e.g. it becomes a reflex agent). This distinction may be subtle in a simulated environment like a Gridworld, but it's very important in the real world, where the real MDP is not available.</p>
+<p>Note that your value iteration agent does not actually learn from experience. Rather, it ponders its MDP model to arrive at a complete policy before ever interacting with a real environment. When it does interact with the environment, it simply follows the precomputed policy (e.g. it becomes a reflex agent). This distinction may be subtle in a simulated environment like a GridWorld, but it's very important in the real world, where the real MDP is not available.</p>
 <p>You will now write a Q-learning agent, which does very little on construction, but instead learns by trial and error from interactions with the environment through its <code>update(state, action, nextState, reward)</code> method. A stub of a Q-learner is specified in <code>QLearningAgent</code> in <code>qlearningAgents.py</code>, and you can select it with the option <code>'-a q'</code>. For this question, you must implement the <code>update</code>, <code>computeValueFromQValues</code>, <code>getQValue</code>, and <code>computeActionFromQValues</code> methods.</p>
 <p><em>Note:</em> For <code>computeActionFromQValues</code>, you should break ties randomly for better behavior. The <code>random.choice()</code> function will help. In a particular state, actions that your agent <em>hasn't</em> seen before still have a Q-value, specifically a Q-value of zero, and if all of the actions that your agent <em>has</em> seen before have a negative Q-value, an unseen action may be optimal.</p>
 <p>With the Q-learning update in place, you can watch your Q-learner learn under manual control, using the keyboard:</p>
 <pre>python gridworld.py -a q -k 5 -m</pre>
-<p>Recall that <code>-k</code> will control the number of episodes your agent gets to learn. Watch how the agent learns about the state it was just in, not the one it moves to, and "leaves learning in its wake." Hint: to help with debugging, you can turn off noise by using the <code>--noise 0.0</code> parameter (though this obviously makes Q-learning less interesting). If you manually steer Pacman north and then east along the optimal path for four episodes, you should see the following Q-values: </p>
+<p>Recall that <code>-k</code> will control the number of episodes your agent gets to learn. Watch how the agent learns about the state it was just in, not the one it moves to, and "leaves learning in its wake." Hint: to help with debugging, you can turn off noise by using the <code>--noise 0.0</code> parameter (though this obviously makes Q-learning less interesting). If you manually steer Pac-Man north and then east along the optimal path for four episodes, you should see the following Q-values: </p>
 <center><img src="./q-learning.png" width="25%" alt="QLearning"></center>
 <p></p>
 <p><em>Grading:</em> We will run your Q-learning agent and check that it learns the same Q-values and policy as our reference implementation when each is presented with the same set of examples. To grade your implementation, run the autograder:</p>
@@ -261,34 +261,29 @@ submit your own work only; <em>please</em> don't let us down. Likewise, <em>do n
 <p>To grade your answer, run the autograder:</p>
 <pre>python autograder.py -q q6</pre>
 
-<h3><a name="Q7"></a>Question 7 (1 point <b>extra credit</b>): Q-Learning and Pacman</h3>
-<p>Time to play some Pacman! Pacman will play games in two phases. In the first phase, <em>training</em>, Pacman will begin to learn about the values of positions and actions. Because it takes a very long time to learn accurate Q-values even for tiny grids, Pacman's training games run in quiet mode by default, with no GUI (or console) display. Once Pacman's training is complete, he will enter <em>testing</em> mode. When testing, Pacman's <code>self.epsilon</code> and <code>self.alpha</code> will be set to 0.0, effectively stopping Q-learning and disabling exploration, in order to allow Pacman to exploit his learned policy. Test games are shown in the GUI by default. Without any code changes you should be able to run Q-learning Pacman for very tiny grids as follows:</p>
+<h3><a name="Q7"></a>Question 7 (1 point <b>extra credit</b>): Q-Learning and Pac-Man</h3>
+<p>Time to play some Pac-Man! Pac-Man will play games in two phases. In the first phase, <em>training</em>, Pac-Man will begin to learn about the values of positions and actions. Because it takes a very long time to learn accurate Q-values even for tiny grids, Pac-Man's training games run in quiet mode by default, with no GUI (or console) display. Once Pac-Man's training is complete, he will enter <em>testing</em> mode. When testing, Pac-Man's <code>self.epsilon</code> and <code>self.alpha</code> will be set to 0.0, effectively stopping Q-learning and disabling exploration, in order to allow Pac-Man to exploit his learned policy. Test games are shown in the GUI by default. Without any code changes you should be able to run Q-learning Pac-Man for very tiny grids as follows:</p>
 <pre>python pacman.py -p PacmanQAgent -x 2000 -n 2010 -l smallGrid </pre>
-<p>Note that <code>PacmanQAgent</code> is already defined for you in terms of the <code>QLearningAgent</code> you've already written. <code>PacmanQAgent</code> is only different in that it has default learning parameters that are more effective for the Pacman problem (<code>epsilon=0.05, alpha=0.2, gamma=0.8</code>). You will receive full credit for this question if the command above works without exceptions and your agent wins at least 80% of the time. The autograder will run 100 test games after the 2000 training games.</p>
-<p><em>Hint:</em> If your <code>QLearningAgent</code> works for <code>gridworld.py</code> and <code>crawler.py</code> but does not seem to be learning a good policy for Pacman on <code>smallGrid</code>, it may be because your <code>getAction</code> and/or <code>computeActionFromQValues</code> methods do not in some cases properly consider unseen actions. In particular, because unseen actions have by definition a Q-value of zero, if all of the actions that <em>have</em> been seen have negative Q-values, an unseen action may be optimal. Beware of the argmax function from util.Counter!</p>
+<p>Note that <code>PacmanQAgent</code> is already defined for you in terms of the <code>QLearningAgent</code> you've already written. <code>PacmanQAgent</code> is only different in that it has default learning parameters that are more effective for the Pac-Man problem (<code>epsilon=0.05, alpha=0.2, gamma=0.8</code>). You will receive full credit for this question if the command above works without exceptions and your agent wins at least 80% of the time. The autograder will run 100 test games after the 2000 training games.</p>
+<p><em>Hint:</em> If your <code>QLearningAgent</code> works for <code>gridworld.py</code> and <code>crawler.py</code> but does not seem to be learning a good policy for Pac-Man on <code>smallGrid</code>, it may be because your <code>getAction</code> and/or <code>computeActionFromQValues</code> methods do not in some cases properly consider unseen actions. In particular, because unseen actions have by definition a Q-value of zero, if all of the actions that <em>have</em> been seen have negative Q-values, an unseen action may be optimal. Beware of the argmax function from util.Counter!</p>
 <p><em>Note:</em> To grade your answer, run:</p>
 <pre>python autograder.py -q q7</pre>
 <p><em>Note:</em> If you want to experiment with learning parameters, you can use the option <code>-a</code>, for example <code>-a epsilon=0.1,alpha=0.3,gamma=0.7</code>. These values will then be accessible as <code>self.epsilon, self.gamma</code> and <code>self.alpha</code> inside the agent.</p>
-<p><em>Note:</em> While a total of 2010 games will be played, the first 2000 games will not be displayed because of the option <code>-x 2000</code>, which designates the first 2000 games for training (no output). Thus, you will only see Pacman play the last 10 of these games. The number of training games is also passed to your agent as the option <code>numTraining</code>.</p>
+<p><em>Note:</em> While a total of 2010 games will be played, the first 2000 games will not be displayed because of the option <code>-x 2000</code>, which designates the first 2000 games for training (no output). Thus, you will only see Pac-Man play the last 10 of these games. The number of training games is also passed to your agent as the option <code>numTraining</code>.</p>
 <p><em>Note:</em> If you want to watch 10 training games to see what's going on, use the command:</p>
 <pre>python pacman.py -p PacmanQAgent -n 10 -l smallGrid -a numTraining=10</pre>
-<p>During training, you will see output every 100 games with statistics about how Pacman is faring. Epsilon is positive during training, so Pacman will play poorly even after having learned a good policy: this is because he occasionally makes a random exploratory move into a ghost. As a benchmark, it should take between 1,000 and 1400 games before Pacman's rewards for a 100 episode segment becomes positive, reflecting that he's started winning more than losing. By the end of training, it should remain positive and be fairly high (between 100 and 350).</p>
-<p>Make sure you understand what is happening here: the MDP state is the <em>exact</em> board configuration facing Pacman, with the now complex transitions describing an entire ply of change to that state. The intermediate game configurations in which Pacman has moved but the ghosts have not replied are <em>not</em> MDP states, but are bundled in to the transitions.</p>
-<p>Once Pacman is done training, he should win very reliably in test games (at least 90% of the time), since now he is exploiting his learned policy.</p>
-<p>However, you will find that training the same agent on the seemingly simple <code>mediumGrid</code> does not work well. In our implementation, Pacman's average training rewards remain negative throughout training. At test time, he plays badly, probably losing all of his test games. Training will also take a long time, despite its ineffectiveness.</p>
-<p>Pacman fails to win on larger layouts because each board configuration is a separate state with separate Q-values. He has no way to generalize that running into a ghost is bad for all positions. Obviously, this approach will not scale.</p>
+<p>During training, you will see output every 100 games with statistics about how Pac-Man is faring. Epsilon is positive during training, so Pac-Man will play poorly even after having learned a good policy: this is because he occasionally makes a random exploratory move into a ghost. As a benchmark, it should take between 1,000 and 1400 games before Pac-Man's rewards for a 100 episode segment becomes positive, reflecting that he's started winning more than losing. By the end of training, it should remain positive and be fairly high (between 100 and 350).</p>
+<p>Make sure you understand what is happening here: the MDP state is the <em>exact</em> board configuration facing Pac-Man, with the now complex transitions describing an entire ply of change to that state. The intermediate game configurations in which Pac-Man has moved but the ghosts have not replied are <em>not</em> MDP states, but are bundled in to the transitions.</p>
+<p>Once Pac-Man is done training, he should win very reliably in test games (at least 90% of the time), since now he is exploiting his learned policy.</p>
+<p>However, you will find that training the same agent on the seemingly simple <code>mediumGrid</code> does not work well. In our implementation, Pac-Man's average training rewards remain negative throughout training. At test time, he plays badly, probably losing all of his test games. Training will also take a long time, despite its ineffectiveness.</p>
+<p>Pac-Man fails to win on larger layouts because each board configuration is a separate state with separate Q-values. He has no way to generalize that running into a ghost is bad for all positions. Obviously, this approach will not scale.</p>
 
 
 <h3> What to Submit </h3>
-    <p> Zip only the files you altered for this assignment as a .zip <b> named with the first letter of your first name, your last name, and homework number</b> (example: lmartin_hw1.zip) and submit it on Blackboard before the due date. If you are submitting as a pair, please label the file with both of your last names and the homework number (example: martin_ayanzadeh_hw1.zip).
-    <br>
-    <a href="{{page.submission_link}}">Submission link</a>
-    </p>
-    
-    
-
-
-
+<p> Zip only the files you altered for this assignment as a .zip <b> named with the first letter of your first name, your last name, and homework number</b> (example: lmartin_hw1.zip) and submit it on Blackboard before the due date. If you are submitting as a pair, please label the file with both of your last names and the homework number (example: martin_ayanzadeh_hw1.zip).
+<br>
+<a href="{{page.submission_link}}">Submission link</a>
+</p>
 
 
 <div class="alert alert-warning" markdown="1">
