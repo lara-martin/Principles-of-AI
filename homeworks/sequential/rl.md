@@ -16,7 +16,7 @@ materials:
 
 readings:
     -
-        title: AIMA Chapter 
+        title: AIMA Chapter 22
         authors: Peter Norvig and Stuart J. Russell
 
 submission_link: https://blackboard.umbc.edu/ultra/courses/_76209_1/grades/assessment/test/_6357100_1?courseId=_76209_1
@@ -26,7 +26,7 @@ submission_link: https://blackboard.umbc.edu/ultra/courses/_76209_1/grades/asses
 <h2>Homework 3: Reinforcement Learning in GridWorld & Pac-Man (10%)</h2>
 
 <div class="alert alert-warning" markdown="1">
-<b>IMPORTANT:</b> You are <b>not</b> allowed to use ChatGPT or any other LLMs for this assignment.<br><br>
+<b>IMPORTANT:</b> Please list any outside resources (i.e., beyond the textbook, instructor, or TA). If you did not use any outside resources, please state this clearly when you submit your assignment. If we do not see any such statement, we will take off 5 points.<br><br>
 Due {{page.due_date | date: "%B %-d, %Y at %r"}}
 on <a href="{{page.submission_link}}">Blackboard</a>.<br><br>
 Materials: 
@@ -189,7 +189,7 @@ submit your own work only; <em>please</em> don't let us down. Likewise, <em>do n
 <li><code>computeQValueFromValues(state, action)</code> returns the Q-value of the (state, action) pair given by the value function given by <code>self.values</code>.</li>
 </ul>
 <p>These quantities are all displayed in the GUI: values are numbers in squares, Q-values are numbers in square quarters, and policies are arrows out from each square.</p>
-<p><em>Important:</em> Use the "batch" version of value iteration where each vector V<sub>k</sub> is computed from a fixed vector V<sub>k-1</sub> (like in lecture), not the "online" version where one single weight vector is updated in place. This means that when a state's value is updated in iteration k based on the values of its successor states, the successor state values used in the value update computation should be those from iteration k-1 (even if some of the successor states had already been updated in iteration k). The difference is discussed in <a href="https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf">Sutton &amp; Barto</a> in the 6th paragraph of chapter 4.1.</p>
+<!--<p><em>Important:</em> Use the "batch" version of value iteration where each vector V<sub>k</sub> is computed from a fixed vector V<sub>k-1</sub> (like in lecture), not the "online" version where one single weight vector is updated in place. This means that when a state's value is updated in iteration k based on the values of its successor states, the successor state values used in the value update computation should be those from iteration k-1 (even if some of the successor states had already been updated in iteration k). The difference is discussed in the Sutton &amp; Barto AI textbook in the 6th paragraph of chapter 4.1.</p>-->
 <p><em>Note:</em> A policy synthesized from values of depth k (which reflect the next k rewards) will actually reflect the next k+1 rewards (i.e. you return 
 <math xmlns="http://www.w3.org/1998/Math/MathML">
   <msub>
@@ -227,7 +227,7 @@ submit your own work only; <em>please</em> don't let us down. Likewise, <em>do n
 <h3><a name="Q2"></a>Question 2 (1 point): Bridge Crossing Analysis</h3>
 <p><code>BridgeGrid</code> is a grid world map with the a low-reward terminal state and a high-reward terminal state separated by a narrow "bridge", on either side of which is a chasm of high negative reward. The agent starts near the low-reward state. With the default discount of 0.9 and the default noise of 0.2, the optimal policy does not cross the bridge. Change only ONE of the discount and noise parameters so that the optimal policy causes the agent to attempt to cross the bridge. Put your answer in <code>question2()</code> of <code>analysis.py</code>. (Noise refers to how often an agent ends up in an unintended successor state when they perform an action.) The default corresponds to:</p>
 <pre>python gridworld.py -a value -i 100 -g BridgeGrid --discount 0.9 --noise 0.2</pre>
-<center><img src="./value-q2.png" width="25%" alt="value iteration with k=100"></center>
+<center><img src="./value-q2.png" width="50%" alt="value iteration with k=100"></center>
 <p><em>Grading:</em> We will check that you only changed one of the given parameters, and that with this change, a correct value iteration agent should cross the bridge. To check your answer, run the autograder:</p>
 <pre>python autograder.py -q q2</pre>
 
