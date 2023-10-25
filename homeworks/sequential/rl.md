@@ -188,8 +188,28 @@ submit your own work only; <em>please</em> don't let us down. Likewise, <em>do n
 </ul>
 <p>These quantities are all displayed in the GUI: values are numbers in squares, Q-values are numbers in square quarters, and policies are arrows out from each square.</p>
 <p><em>Important:</em> Use the "batch" version of value iteration where each vector V<sub>k</sub> is computed from a fixed vector V<sub>k-1</sub> (like in lecture), not the "online" version where one single weight vector is updated in place. This means that when a state's value is updated in iteration k based on the values of its successor states, the successor state values used in the value update computation should be those from iteration k-1 (even if some of the successor states had already been updated in iteration k). The difference is discussed in <a href="https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf">Sutton &amp; Barto</a> in the 6th paragraph of chapter 4.1.</p>
-<p><em>Note:</em> A policy synthesized from values of depth k (which reflect the next k rewards) will actually reflect the next k+1 rewards (i.e. you return <span class="MathJax_Preview" style="color: inherit; display: none;"></span><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;msub&gt;&lt;mi&gt;&amp;#x03C0;&lt;/mi&gt;&lt;mrow class=&quot;MJX-TeXAtom-ORD&quot;&gt;&lt;mi&gt;k&lt;/mi&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mrow&gt;&lt;/msub&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 2.45em; display: inline-block;"><span style="display: inline-block; position: relative; width: 1.921em; height: 0px; font-size: 126%;"><span style="position: absolute; clip: rect(0.334em 1001.92em 1.392em -999.997em); top: -0.989em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="msubsup" id="MathJax-Span-3"><span style="display: inline-block; position: relative; width: 1.921em; height: 0px;"><span style="position: absolute; clip: rect(3.31em 1000.6em 4.17em -999.997em); top: -3.965em; left: 0em;"><span class="mi" id="MathJax-Span-4" style="font-family: MathJax_Math-italic;">&#960;<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.003em;"></span></span><span style="display: inline-block; width: 0px; height: 3.972em;"></span></span><span style="position: absolute; top: -3.833em; left: 0.599em;"><span class="texatom" id="MathJax-Span-5"><span class="mrow" id="MathJax-Span-6"><span class="mi" id="MathJax-Span-7" style="font-size: 70.7%; font-family: MathJax_Math-italic;">k</span><span class="mo" id="MathJax-Span-8" style="font-size: 70.7%; font-family: MathJax_Main;">+</span><span class="mn" id="MathJax-Span-9" style="font-size: 70.7%; font-family: MathJax_Main;">1</span></span></span><span style="display: inline-block; width: 0px; height: 3.972em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 0.995em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.329em; border-left: 0px solid; width: 0px; height: 1.004em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>&#960;</mi><mrow class="MJX-TeXAtom-ORD"><mi>k</mi><mo>+</mo><mn>1</mn></mrow></msub></math></span></span><script type="math/tex" id="MathJax-Element-1">\pi_{k+1}</script>). Similarly, the Q-values will also reflect one more reward than the values (i.e. you return Q<sub>k+1</sub>).</p>
-<p>You should return the synthesized policy <span style="display: inline-block; overflow: hidden; vertical-align: -0.329em; border-left: 0px solid; width: 0px; height: 1.004em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>&#960;</mi><mrow class="MJX-TeXAtom-ORD"><mi>k</mi><mo>+</mo><mn>1</mn></mrow></msub></math></span></span>.</p>
+<p><em>Note:</em> A policy synthesized from values of depth k (which reflect the next k rewards) will actually reflect the next k+1 rewards (i.e. you return 
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mi>&#x03C0;<!-- π --></mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>k</mi>
+      <mo>+</mo>
+      <mn>1</mn>
+    </mrow>
+  </msub>
+</math>). Similarly, the Q-values will also reflect one more reward than the values (i.e. you return Q<sub>k+1</sub>).</p>
+<p>You should return the synthesized policy
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mi>&#x03C0;<!-- π --></mi>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mi>k</mi>
+      <mo>+</mo>
+      <mn>1</mn>
+    </mrow>
+  </msub>
+</math>.</p>
 <p><em>Hint:</em> Use the <code>util.Counter</code> class in <code>util.py</code>, which is a dictionary with a default value of zero. Methods such as <code>totalCount</code> should simplify your code. However, be careful with <code>argMax</code>: the actual argmax you want may be a key not in the counter!</p>
 <p><em>Note:</em> Make sure to handle the case when a state has no available actions in an MDP (think about what this means for future rewards).</p>
 <p>To test your implementation, run the autograder:</p>
