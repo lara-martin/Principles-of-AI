@@ -33,6 +33,11 @@ Materials:
 {% for material in page.materials %}
 <a href="{{material.url}}">{{material.name}}</a><br>
 {% endfor %}
+<br><br>
+Related Readings:
+{% for reading in page.readings %}
+{{reading.title}} by {{reading.authors}}<br>
+{% endfor %}
 
 </div>
 
