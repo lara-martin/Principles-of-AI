@@ -46,7 +46,9 @@ Materials:
 <h3>Learning Objectives</h3>
 In this assignment, you will
 <ul>
-    <li></li>
+    <li>Synthesize a policy by running value iteration</li>
+    <li>Implement a Q-learning agent</li>
+    <li>Perform epsilon-greedy action selection</li>
 </ul>
 
 <h3>Introduction</h3>
@@ -151,9 +153,8 @@ In this assignment, you will
 <p></p>
 <p><strong>Files to Edit and Submit:</strong> You will fill in portions of <code><a href="code/valueIterationAgents.py">valueIterationAgents.py</a></code>, <code><a href="code/qlearningAgents.py">qlearningAgents.py</a></code>, and <code><a href="code/analysis.py">analysis.py</a></code> during the assignment. You should submit these files with your code and comments. Please <em>do not</em> change the other files in this distribution or submit any of our original files other than these files.</p>
 
-</p><p><strong>Evaluation:</strong> Your code will be autograded for technical
+<p><strong>Evaluation:</strong> Your code will be autograded for technical
 correctness, using the same autograder and test cases you are provided with. Please <em>do not</em> change the names of any provided functions or classes within the code, or you will wreak havoc on the autograder. You should ensure your code passes all the test cases before submitting the solution, as we will not give any points for any questions if not all the test cases for it pass. <em>However</em>, the correctness of your implementation -- not the autograder's judgements -- will be the final judge of your score. Even if your code passes the autograder, we reserve the right to check it for mistakes in implementation, though this should only be a problem if your code takes too long or you disregarded announcements regarding the homework.
-
 </p>
 
 <p><strong>Collaboration:</strong> You <em>are</em> allowed to collaborate in pairs on this homework. Please make sure both of your names are in the zip file name and that you are in a group together for the assignment on Blackboard.</p>
