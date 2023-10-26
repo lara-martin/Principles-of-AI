@@ -1,5 +1,5 @@
 ---
-title: CMSC 671-01 Principles of Artificial Intelligence - UMBC
+title: CMSC 671 - Fall 2023 @ UMBC
 layout: default
 active_tab: main_page 
 ---
@@ -66,6 +66,7 @@ First day of class is Thursday, January 13, 2022 at 1:45pm-3:15pm Eastern. It wi
 -->
 # CMSC 671-01 Principles of Artificial Intelligence at UMBC
 
+## Fall 2023
 
 ### Course Description
 Artificial Intelligence (AI), the study of how machines can behave in an intelligent, human-like manner, is shaping the way we interact with modern technology on a daily basis. In this introductory course, we will discuss what an intelligent agent is, and explore how an agent can solve problems by searching, make informed decisions, reason under uncertainty, and even learn. This course will help you develop the general foundational tools necessary to implement your own intelligent agents, understand the methods behind recent advances in AI, and pursue more specialized AI applications, including game AI, knowledge representation, machine learning, natural language processing, computer vision, planning, robotics, and more.
