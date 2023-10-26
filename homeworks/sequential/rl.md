@@ -26,7 +26,7 @@ submission_link: https://blackboard.umbc.edu/ultra/courses/_76209_1/grades/asses
 <h2>Homework 3: Reinforcement Learning in GridWorld & Pac-Man (10%)</h2>
 
 <div class="alert alert-warning" markdown="1">
-<b>IMPORTANT:</b> Please list any outside resources (i.e., beyond the textbook, instructor, or TA). If you did not use any outside resources, please state this clearly when you submit your assignment. If we do not see any such statement, we will take off 5 points.<br><br>
+<b>IMPORTANT:</b> Please list any outside resources (i.e., beyond the textbook, instructor, or TA). If you did not use any outside resources, please state this clearly when you submit your assignment. If we do not see any such statement, we will take off 1 point (out of 20).<br><br>
 Due {{page.due_date | date: "%B %-d, %Y at %r"}}
 on <a href="{{page.submission_link}}">Blackboard</a>.<br><br>
 Materials: 
