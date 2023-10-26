@@ -108,10 +108,10 @@
           title: AIMA, Chapter 5.1-5.4
   hw:
     -
-      title: Search
-      url:
+      title: HW1: Search in Pac-Man
+      url: search/search.html
       percentage: 10%
-      due_date:          
+      due_date: 2023-09-26        
 
 -
   module_number: 2
@@ -152,10 +152,10 @@
           title: AIMA, Chapter 11.1-11.7          
   hw:
     -
-      title: Logical Agents
-      url:
+      title: HW2: Hunt the Wampa
+      url: logic/logical-agent.html
       percentage: 10%
-      due_date:        
+      due_date: 2023-10-19  
 
 -
   module_number: 3
@@ -187,10 +187,10 @@
           title: AIMA, Chapter 22.1-22.5          
   hw:
     -
-      title: Sequential Decision Making
-      url:
+      title: Reinforcement Learning in GridWorld & Pac-Man
+      url: sequential/rl.html
       percentage: 10%
-      due_date:           
+      due_date: 2023-11-14     
 -
   module_number: 4
   start_date: 2023-10-31
@@ -285,8 +285,7 @@
         -
           authors: Daniel Jurafsky & James H. Martin 
           url: https://web.stanford.edu/~jurafsky/slp3/7.pdf
-          title: "Speech and Language Processing, Chapter 7: Neural Networks and Neural
-Language Models"
+          title: "Speech and Language Processing, Chapter 7: Neural Networks and Neural Language Models"
     - 
       title: Transformers
       video: 
@@ -296,5 +295,4 @@ Language Models"
         -
           authors: Daniel Jurafsky & James H. Martin 
           url: https://web.stanford.edu/~jurafsky/slp3/10.pdf
-          title: "Speech and Language Processing, Chapter 10: Transformers and Pretrained
-Language Models"
+          title: "Speech and Language Processing, Chapter 10: Transformers and Pretrained Language Models"
