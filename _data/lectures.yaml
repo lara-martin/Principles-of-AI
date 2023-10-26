@@ -109,11 +109,13 @@
   title: Planning
   slides: slides/23-10-10_Planning-and-Ethics.pdf
   guest_speaker: Dr. Cassie Kent
+  guest_url: https://dekent.github.io/
 -
   date: 2023-10-12
   title: Markov Decision Processes (MDPs)
   slides: slides/23-10-12_Utility-and-Decision-Making.pdf
   guest_speaker: Dr. Cassie Kent
+  guest_url: https://dekent.github.io/
 -
   date: 2023-10-17
   type: no_lecture
@@ -123,6 +125,7 @@
   title: Markov Decision Processes (MDPs)
   slides: slides/23-10-19_MDPs.pdf
   guest_speaker: Dr. Frank Ferraro
+  guest_url: https://redirect.cs.umbc.edu/~ferraro/
   type: deadline
   homework_due:   
     -
