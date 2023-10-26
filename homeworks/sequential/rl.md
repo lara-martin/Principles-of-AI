@@ -3,7 +3,7 @@ layout: default
 img: 
 img_link: 
 caption: 
-title: Reinforcement Learning
+title: Reinforcement Learning in GridWorld & Pac-Man
 type: Homework
 number: 3
 active_tab: homework
