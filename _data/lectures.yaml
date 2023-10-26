@@ -147,13 +147,7 @@
       url: presentations.html
 -
   date: 2023-10-26
-  title: Reinforcement Learning (RL)
-  type: deadline
-  homework_due:   
-    -
-      title: "HW3: Sequential Decision Making (10%)"
-      url: 
-   
+  title: Reinforcement Learning (RL)   
 -
   date: 2023-10-31
   title: Intro to Probability
@@ -177,6 +171,11 @@
 -
   date: 2023-11-14
   title: Bayes Nets
+  type: deadline
+  homework_due:   
+    -
+      title: "HW3: Reinforcement Learning in GridWorld & Pac-Man (10%)"
+      url: sequential/rl.html
 -
   date: 2023-11-15
   type: no_lecture
