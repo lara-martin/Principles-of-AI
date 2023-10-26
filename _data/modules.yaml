@@ -108,7 +108,7 @@
           title: AIMA, Chapter 5.1-5.4
   hw:
     -
-      title: HW1: Search in Pac-Man
+      title: Search in Pac-Man
       url: search/search.html
       percentage: 10%
       due_date: 2023-09-26        
@@ -152,7 +152,7 @@
           title: AIMA, Chapter 11.1-11.7          
   hw:
     -
-      title: HW2: Hunt the Wampa
+      title: Hunt the Wampa
       url: logic/logical-agent.html
       percentage: 10%
       due_date: 2023-10-19  
