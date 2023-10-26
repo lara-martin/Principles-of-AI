@@ -71,8 +71,8 @@ No homework for this module.
 
 
 
-{% if speaker %} Guest Lecturer: <a href="{{ speaker_url }}">{{guest_speaker}}</a>{% endif %}
-{% if speaker2 %} and <a href="{{ speaker_url2 }}">{{guest_speaker2}}</a>{% endif %}
+{% if speaker %} Guest Lecturer: <a href="{{ speaker_url }}">{{speaker}}</a>{% endif %}
+{% if speaker2 %} and <a href="{{ speaker_url2 }}">{{speaker2}}</a>{% endif %}
 
 {% if lesson.presentations %}
 {% for pres in lesson.presentations %}
