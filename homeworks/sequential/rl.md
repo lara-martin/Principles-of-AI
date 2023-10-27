@@ -7,7 +7,6 @@ title: Reinforcement Learning in GridWorld & Pac-Man
 type: Homework
 number: 3
 active_tab: homework
-permalink: /Principles-of-AI/homeworks/sequential/rl.html
 release_date: 2023-10-26
 due_date: 2023-11-14 23:59:00EST
 materials:
