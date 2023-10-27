@@ -1,7 +1,8 @@
 ---
 title: CMSC 671 - Fall 2023 @ UMBC
 layout: default
-active_tab: main_page 
+active_tab: main_page
+permalink: /Principles-of-AI/
 ---
 
 <!--
