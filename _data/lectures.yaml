@@ -195,15 +195,13 @@
   homework_due:   
     -
       title: "Module 4 Group Presentations"
-      url: presentations.html
+      url: presentations.html  
+    -
+      title: "Project Milestone 1: Proposal"
+      url:  project/proposal.html
 -
   date: 2023-11-21
-  title: Naive Bayes
-  type: deadline
-  homework_due:   
-    -
-      title: "HW4: Probability & Stochastic Reasoning (10%)"
-      url:    
+  title: Naive Bayes 
 -
   date: 2023-11-23
   title: No Class - Thanksgiving
@@ -211,15 +209,28 @@
 -
   date: 2023-11-28
   title: Supervised vs Unsupervised Learning
+  homework_due:
+    -
+      title: "Project Milestone 2: Lit Review"
+      url:  project/lit-review.html
 -
   date: 2023-11-30
   title: Perceptrons & Local Search Revisited/Gradient Descent
 -
   date: 2023-12-05
   title: Deep Neural Networks
+  type: deadline
+  homework_due:   
+    -
+      title: "HW4: Probability & Stochastic Reasoning (10%)"
+      url: 
 -
   date: 2023-12-07
   title: Deep Neural Networks
+  homework_due:
+    -
+      title: "Project Milestone 3: Final Report Draft"
+      url: project/draft.html
 -
   date: 2023-12-12
   title: Transformers
@@ -227,3 +238,7 @@
   date: 2023-12-19
   type: deadline
   title: "Final Project Presentations, 1:00-3:00 PM"
+  homework_due:
+    -
+      title: "Project Milestone 4: Final Submission"
+      url:  project/final-submission.html
