@@ -9,7 +9,7 @@ number: 3
 active_tab: homework
 release_date: 2023-11-03
 due_date: 2023-12-07 23:59:00EST
-submission: 
+submission: https://blackboard.umbc.edu/ultra/courses/_76209_1/outline/assessment/test/_6481225_1?courseId=_76209_1
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -36,6 +36,8 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 <div class="alert alert-info">
 This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+<br><a href="{{item.submission}}">{{ item.submission }}</a>
+
 </div>
 
 {% if page.materials %}
