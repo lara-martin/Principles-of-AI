@@ -36,8 +36,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 <div class="alert alert-info">
 Your video is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. Add the link to the <a href="">Google Doc</a> to submit.<br>
-Your paper is due 
-<br> Paper Submission Link: <a href="{{item.submission}}">{{item.submission}}</a>
+Your paper is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before 11:59PM. Paper Submission Link: <a href="{{page.submission}}">{{page.submission}}</a>
 </div>
 
 {% if page.materials %}
