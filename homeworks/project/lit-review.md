@@ -60,10 +60,10 @@ For this milestone, you should read papers that are related to your project and 
 * Read at least 3 papers related to your proposed project. (See the Lit Review section)
 * Finish collecting any datasets that you need and make sure they are in a format that you can work with.
 * Outline a more definite plan on the types of methods you want to use. What will your system look like?
-   * If your project involves doing text parsing with tools like AllenNLP/Stanza/Spacy, do some experiments to see whether the parsing you want to do is feasible. 
+   * If your project involves calling external libraries, do some quick experiments to see whether the methods you want to use are feasible. 
 
 For those with extra ambitious projects, we suggest doing these bullet points for this milestone as well:
-* If your project involves training/fine-tuning a neural network, try training some preliminary models and observing the outputs.
+* If your project involves training/fine-tuning a neural network or training a reinforcement learner, try training some preliminary models and observing the outputs.
 * If your project involves a user experience of some sort, create a mock-up of the user interface (even if it's not fully functional/feature-complete yet).
 
 ## Informal Lit Review
@@ -73,7 +73,7 @@ There are a couple of ways to find papers.
 
 1) To find good papers, we recommend starting with a highly relevant paper (maybe from the course website or one that was suggested to you), and either looking through the paper's Related Works section or using [Google Scholar](https://scholar.google.com/) to find papers that cite it. You can also use [Semantic Scholar](https://www.semanticscholar.org/) to do this as they distinguish between "Highly Influential" citations and standard citations, which could help you narrow down your search.
 
-2) You can also look through conference proceedings, such as [ACL Anthology](https://aclanthology.org/) or the [AAAI Digital Library](https://www.aaai.org/Library/conferences-library.php) to search through only papers that were accepted to top AI/NLP conferences. Doing this may help you find some "diamonds in the rough" (i.e. papers that are of high quality but do not have many citations yet by virtue of them being very new).
+2) You can also look through conference proceedings, such as those listed for the Paper Presentation (e.g., [AAAI Digital Library](https://www.aaai.org/Library/conferences-library.php), [ACL Anthology (NLP)](https://aclanthology.org/), [ICLR (ML)](https://dblp.org/db/conf/iclr/index.html), [NeurIPS (ML)](https://papers.neurips.cc/), [Computer Vision Foundation Open Access Library](https://openaccess.thecvf.com/menu), [ROS (Robotics)](https://ieeexplore.ieee.org/xpl/conhome/1000393/all-proceedings), [ICRA (Robotics)](https://ieeexplore.ieee.org/xpl/conhome/1000639/all-proceedings), [RSS (Robotics)](https://www.roboticsproceedings.org/), [Interspeech (Speech)](https://www.isca-speech.org/archive/), or [ICASSP (Speech)](https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings)) to search through only papers that were accepted to top AI conferences. Doing this may help you find some "diamonds in the rough" (i.e. papers that are of high quality but do not have many citations yet by virtue of them being very new).
 
 3) Alternatively, you can use Google Scholar or Semantic Scholar to search by keywords. This might be more difficult if you are not as familiar with the jargon of the area. If you would like to search this way and are having trouble finding the relevant keywords, feel free to reach out to one of us!
 
@@ -98,7 +98,7 @@ __Title__ & __Author Names__: What are you calling your project? These are not g
 2. __Related Work__: What previous research will you be using, building off of, or being inspired by? Tell a short "story" using what you found out from the Lit Review above. This can include papers from the course schedule as well as anything else you want to cite.
 3. __Methods__: What are the steps to accomplish your project? This should describe both the steps you've done so far (data collection and system planning) and the ones you plan to do. This doesn't have to be the final methods that you end up using, but writing out a plan out will help you figure out some details you might not have thought of otherwise!
 4. __Data__: What data have you decided to use? Where did you get it from, what does it look like, and what are some potential problems with it?
-5. __Evaluation Plan__: What will you be using to evaluate your research question or that the components of your interactive experience are working well? 
+5. __Evaluation Plan__: What will you be using to evaluate your research question or that the components of your AI system are working well? 
   * These can be things like accuracy, diversity metrics, perplexity, BLEU/ROUGE scores, success rate, human evaluation scores, etc. depending on your project.
 6. __Preliminary Results (optional)__: Describe any results you have so far. These can include results for intermediate steps that build toward your main project goal. If you haven't gotten anything working succesfully yet, negative results or plans for experiments to run are great to report too! This section should include tables, plots, and example system outputs where applicable.
 7. __Attribution__: For each of your team mates, write a couple sentences describing their main contributions to the project so far and what each person plans to do for the rest of the project.
@@ -106,7 +106,7 @@ __Title__ & __Author Names__: What are you calling your project? These are not g
 # What to Submit
 Submit the following to [Blackboard]({{page.submission}}):
 * `lit_review.pdf` which contains your literature review. This can be in any format you like. We find that using Google Docs and then downloading as a PDF works well for this sort of thing.
-* `milestone2.pdf` which contains your milestone 2 submission. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. While not required, we highly recommend that you use LaTeX and a conference template. You may choose to use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm).
+* `milestone2.pdf` which contains your Milestone 2 submission. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. While not required, we highly recommend that you use LaTeX and a conference template (e.g., [AAAI's template](https://www.aaai.org/Publications/Templates/AuthorKit23.zip)).
 
 # Grading
 <div class="alert alert-warning" markdown="1">
