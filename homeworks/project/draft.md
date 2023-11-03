@@ -61,7 +61,7 @@ We want to emphasize that you shouldn't stress out too much about making this su
 
 To be specific, for this Milestone, you should:
 * Finish all baseline experiments and get as many preliminary results from your main experiments as possible. You should show significant progress towards your main experimental results.
-* Create your final report using the provided conference paper template: [AAAI](https://www.aaai.org/Publications/Templates/AuthorKit22.zip) (Please ask us directly if you would like to use a template for a different conference. Also, if you are not familiar with LaTeX, let us know.) 
+* Create your final report using the provided conference paper template: [AAAI](https://www.aaai.org/Publications/Templates/AuthorKit23.zip) (Please ask us directly if you would like to use a template for a different conference. Also, if you are not familiar with LaTeX, let us know.) 
 * Fill in as much of the final report as possible given your current results. Your report contain the sections outlined below. 
 
 ## Project Final Report
@@ -103,4 +103,4 @@ This section is our grading rubric for the final report. This Milestone will not
 
 # What to Submit
 Submit the following to [Blackboard]({{page.submission}}):
-* `roughdraft.pdf` which contains your rough draft submission. To make grading easier, your report should include section headers corresponding to each of the bulleted points. As stated earlier, the use of LaTeX and a conference template is required. You may choose to use the [template from ACL](https://www.overleaf.com/latex/templates/acl-rolling-review-template/jxbhdzhmcpdm) or the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit22.zip). Please message us directly if you'd like to use a LaTeX template from a different conference.
+* `roughdraft.pdf` which contains your rough draft submission. To make grading easier, your report should include section headers corresponding to each of the bulleted points. As stated earlier, the use of LaTeX and a conference template is required. You can either use the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit23.zip) or message us directly if you'd like to use a LaTeX template from a different conference.
