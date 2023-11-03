@@ -8,7 +8,8 @@ type: Project Milestone
 number: 1
 active_tab: homework
 release_date: 2023-11-03
-due_date: 2023-10-16 23:59:00EST
+due_date: 2023-11-16 23:59:00EST
+submission: https://blackboard.umbc.edu/ultra/courses/_76209_1/outline/assessment/test/_6481222_1?courseId=_76209_1
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -34,7 +35,9 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}.
+<br>
+Submission Link: <a href="{{item.submission}}">{{ item.submission }}</a>
 </div>
 
 {% if page.materials %}
@@ -86,7 +89,7 @@ Write a project proposal that includes the following sections:
 5. __Team members__ (1 point): Give a list of the students who will participate in this project, and what contribution you expect each person to make to the project.
 
 # What to Submit
-Submit to Gradescope:
+Submit to Blacboard:
 * `proposal.pdf` which contains your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. Latex is preferred but not required.
 
 
