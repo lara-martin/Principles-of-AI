@@ -36,7 +36,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 <div class="alert alert-info">
 This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
-<br><a href="{{item.submission}}">{{ item.submission }}</a>
+<br>Submission Link: <a href="{{page.submission}}">{{ page.submission }}</a>
 
 </div>
 
