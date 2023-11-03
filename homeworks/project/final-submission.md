@@ -75,7 +75,7 @@ Your presentation will be graded on the following criteria.
 ## Project Final Report
 Your final report is a document that describes what you have accomplished in your project this semester. You are very welcome and *encouraged* to draw content from all previous reports you have submitted so far. At this point in the class, all of you have read and presented on academic papers. You should use those journal and conference papers as inspiration for what a good writeup looks like.
 
-For your final report, the use of LaTeX and a conference template is **required**. You should use the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit22.zip). Please directly message us if you'd like to use a LaTeX template from a different conference.
+For your final report, the use of LaTeX and a conference template is **required**. You should use the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit23.zip). Please directly message us if you'd like to use a LaTeX template from a different conference.
 
 ### Report Sections
 The report should have the following sections.
@@ -96,7 +96,7 @@ What things did you try that didn't work out? If you were to start over from scr
 ### Grading
 This section is our grading rubric for the final report. 
 
-1. __Formatting__: All of the sections described in the previous section are present and clearly marked. The report includes a title of the project and the name of the authors at the top. Images, tables, and other figures have captions and are referenced in the text. The paper uses LaTeX the [AAAI template](https://www.aaai.org/Publications/Templates/AuthorKit22.zip) (or other approved template). The paper makes use of citations that follow the standard convention of whatever conference the template is from.
+1. __Formatting__: All of the sections described in the previous section are present and clearly marked. The report includes a title of the project and the name of the authors at the top. Images, tables, and other figures have captions and are referenced in the text. The paper uses LaTeX the [AAAI template](https://www.aaai.org/Publications/Templates/AuthorKit23.zip) (or other approved template). The paper makes use of citations that follow the standard convention of whatever conference the template is from.
 2. __Communication__: Your report should be targeted at an audience who is familiar with AI but has not taken the class and knows nothing about what you have done so far. You can imagine your audience as either the readers of a technical blog post (if you took the system option) or as reviwers of a paper submission to a conference such as AAAI (if you took the research question option). You should aim to make your methods section clear enough that others could attempt to reproduce your work and your results section clear enough that readers understand exactly what experiments you ran.
 3. __Style__: You should write in paragraphs and complete sentences unless there is a very good reason not to.
 4. __Content__: The report answers all relevant questions posed in the previous section. Images, tables, plots, of other figures are used to support the report contents.
@@ -115,4 +115,4 @@ Submit the following to Blackboard before the exam period (1 PM) on **Thursday D
 * A link to your pre-recorded video presentation. This can be on any video hosting platform ([YouTube](https://www.youtube.com/), [Vimeo](https://vimeo.com/watch), etc.). Please double check that the video link is visible to the public before submitting. 
 
 Submit the following to Blackboard by 11:59 PM on **Thursday December 19**:
-* `final-report.pdf` which contains your project report. The use of LaTeX and a conference template is required. Use the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit22.zip) or please message us directly if you'd like to use a LaTeX template from a different conference.
+* `final-report.pdf` which contains your project report. The use of LaTeX and a conference template is required. Use the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit23.zip) or please message us directly if you'd like to use a LaTeX template from a different conference.
