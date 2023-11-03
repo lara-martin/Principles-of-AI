@@ -165,7 +165,7 @@
   type: deadline
 -
   date: 2023-11-07
-  title: Statistical Learning
+  title: Intro to Probability
 -
   date: 2023-11-08
   title: Last Day to Withdraw
@@ -175,7 +175,7 @@
   title: Statistical Learning
 -
   date: 2023-11-14
-  title: Bayes Nets
+  title: Statistical Learning
   type: deadline
   homework_due:   
     -
