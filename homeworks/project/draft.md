@@ -7,7 +7,7 @@ title: Final Report Draft
 type: Project Milestone
 number: 3
 active_tab: homework
-release_date: 2023-12-01
+release_date: 2023-11-03
 due_date: 2023-12-07 23:59:00EST
 submission: 
 ---
