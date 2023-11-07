@@ -239,7 +239,7 @@ submit your own work only; <em>please</em> don't let us down. Likewise, <em>do n
 <h3><a name="Q3"></a>Question 3 (5 points): Policies</h3>
 <p>Consider the <code>DiscountGrid</code> layout, shown below. This grid has two terminal states with positive payoff (in the middle row), a close exit with payoff +1 and a distant exit with payoff +10. The bottom row of the grid consists of terminal states with negative payoff (shown in red); each state in this "cliff" region has payoff -10. The starting state is the yellow square. We distinguish between two types of paths: (1) paths that "risk the cliff" and travel near the bottom row of the grid; these paths are shorter but risk earning a large negative payoff, and are represented by the red arrow in the figure below. (2) paths that "avoid the cliff" and travel along the top edge of the grid. These paths are longer but are less likely to incur huge negative payoffs. These paths are represented by the green arrow in the figure below.</p>
 <center><img src="./discountgrid.png" width="50%" alt="DiscountGrid"></center>
-<p>In this question, you will choose settings of the discount, noise, and living reward parameters for this MDP to produce optimal policies of several different types. Your setting of the parameter values for each part should have the property that, if your agent followed its optimal policy without being subject to any noise, it would exhibit the given behavior. If a particular behavior is not achieved for any setting of the parameters, assert that the policy is impossible by returning the string <code>'NOT POSSIBLE'</code>.</p>
+<p>In this question, you will choose settings of the discount, noise, and reward parameters for this MDP to produce optimal policies of several different types. Your setting of the parameter values for each part should have the property that, if your agent followed its optimal policy without being subject to any noise, it would exhibit the given behavior. If a particular behavior is not achieved for any setting of the parameters, assert that the policy is impossible by returning the string <code>'NOT POSSIBLE'</code>.</p>
 <p>Here are the optimal policy types you should attempt to produce:</p>
 <ol type="a"><ol type="a">
 <li>Prefer the close exit (+1), risking the cliff (-10)</li>
@@ -251,7 +251,7 @@ submit your own work only; <em>please</em> don't let us down. Likewise, <em>do n
 <p></p>
 <p>To check your answers, run the autograder:</p>
 <pre>python autograder.py -q q3</pre>
-<p><code>question3a()</code> through <code>question3e()</code> should each return a 3-item tuple of (discount, noise, living reward) in <code>analysis.py</code>.</p>
+<p><code>question3a()</code> through <code>question3e()</code> should each return a 3-item tuple of (discount, noise, reward) in <code>analysis.py</code>.</p>
 <p><em>Note:</em> You can check your policies in the GUI. For example, using a correct answer to 3(a), the arrow in (0,1) should point east, the arrow in (1,1) should also point east, and the arrow in (2,1) should point north.</p>
 <p><em>Note:</em> On some machines you may not see an arrow. In this case, press a button on the keyboard to switch to qValue display, and mentally calculate the policy by taking the arg max of the available qValues for each state.</p>
 <p><em>Grading:</em> We will check that the desired policy is returned in each case.</p>
