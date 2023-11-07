@@ -57,9 +57,9 @@ You can download the materials for this assignment here:
 
 The project is a chance for you to delve into one of the topics we have covered in class. You can **choose between two directions**: creating a novel AI system or answering a research question. For the direction that you choose, write a project proposal that answers the questions below. 
 
-If you are trying to decide between multiple project ideas, or if you're struggling to come up with something, we highly encourage you to come to office hours and discuss it with the staff. We are experienced researchers and should be able to help you narrow down which ideas of yours are the most feasible + interesting.
+In addition to the proposal that you will write for this first milestone, **you need to also come to office hours (the instructor's or the TA's) at least once**. This is a part of the grade (1 point out of 14), but also remember that we are experienced researchers and should be able to help you narrow down which ideas of yours are the most feasible + interesting.
 
-## Build a novel AI system
+## Option 1: Build a novel AI system
 Use the techniques we have learned in class to build a novel AI system. By the end of the semester, you should have a demo that runs either in Colab or a website showcasing your system.
 
 Write a project proposal that includes the following sections:
@@ -74,7 +74,7 @@ Write a project proposal that includes the following sections:
 5. __Team members__(1 point): Give a list of the students who will participate in this project, and what contribution you expect each person to make to the project.
 
 
-## Attempt to answer an AI research question
+## Option 2: Attempt to answer an AI research question
 By the end of the semester, you should have an academic paper that describes the research question, the experiments you ran to try and answer it, and an analysis of the experimental results.
 
 Write a project proposal that includes the following sections:
@@ -90,11 +90,12 @@ Write a project proposal that includes the following sections:
 
 # What to Submit
 Submit to Blacboard:
-* `proposal.pdf` which contains your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. Latex is preferred but not required.
+* `proposal.pdf` which contains your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points. LaTeX is preferred but not required.
 
 
 # Grading
 <div class="alert alert-warning" markdown="1">
+* Discussion with instructor or TA - 1 point
 * Project Description - 3 points
 * Proposed Method or Evaluation - 3 points
 * Data - 3 points
