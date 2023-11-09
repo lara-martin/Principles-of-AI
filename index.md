@@ -132,7 +132,7 @@ Homeworks
 : There are 4 homeworks, each corresponding to Modules 1-4: Search, Logical Agents, Sequential Decision Making, and Probability & Stochastic Reasoning. They will each have a corresponding page on this website with more information.
 
 Midterm
-: The midterm will show us how well you have learned about the different methods and if you can reason about when to apply them. It will test your knowledge about Modules 1-3 to see if there are any weaknesses in your knowledge before you start on your final project.
+: The midterm will show us how well you have learned about the different methods and if you can reason about when to apply them. It will test your knowledge about Modules 0-3 to see if there are any weaknesses in your knowledge before you start on your final project.
 
 Final Project
 : Teams will come up with AI project ideas and implement them. There will be check-in points along the way to see how you are progressing and to see how well your team is working together.
