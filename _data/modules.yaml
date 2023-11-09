@@ -246,13 +246,7 @@
         -
           authors: Daniel Jurafsky & James H. Martin 
           url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
-          title: "Speech and Language Processing, Chapter 4: Naive Bayes and Sentiment Classification"
-  hw:
-    -
-      title: Probability & Stochastic Reasoning
-      url:
-      percentage: 10%
-      due_date:            
+          title: "Speech and Language Processing, Chapter 4: Naive Bayes and Sentiment Classification"          
 -
   module_number: 5
   start_date: 2023-11-28
