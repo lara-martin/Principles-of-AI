@@ -109,11 +109,11 @@ Textbook
 
 Grading
 : 
-* 5% Class Knowledge Checks
+* 10% Class Knowledge Checks
 * 10% Paper Presentation
-* 40% Homeworks (4 in total; 10% each)
+* 30% Homeworks (3 in total; 10% each)
 * 20% Midterm
-* 25% Final Project
+* 30% Final Project
 
 
 Asynchronous questions to the instructor & TA or discussions with fellow classmates will be through the class Slack. (Please email [both Lara & Aydin](mailto:laramar@umbc.edu;aydina1@umbc.edu?subject=[CMSC 671] Need access to class Slack) specifying the email address you want to use, if you need to be added.) There is no grade for these discussions; they are only for your benefit.
