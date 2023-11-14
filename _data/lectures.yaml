@@ -179,6 +179,7 @@
   date: 2023-11-14
   title: Bayes Nets
   type: deadline
+  slides: slides/23-11-14_Bayes-Nets.pdf
   homework_due:   
     -
       title: "HW3: Reinforcement Learning in GridWorld & Pac-Man (10%)"
@@ -194,7 +195,6 @@
   date: 2023-11-16
   title: Bayes Nets
   type: deadline
-  slides: slidse/23-11-14_Bayes-Nets.pdf
   homework_due:   
     -
       title: "Module 4 Group Presentations"
