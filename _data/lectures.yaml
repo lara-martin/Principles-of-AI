@@ -195,6 +195,7 @@
   date: 2023-11-16
   title: Bayes Nets
   type: deadline
+  slides: slides/23-11-16_Bayes-Nets-Inference.pdf
   homework_due:   
     -
       title: "Module 4 Group Presentations"
