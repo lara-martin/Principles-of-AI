@@ -56,7 +56,7 @@ You can download the materials for this assignment here:
 =============================================================
 
 For this milestone, you should read papers that are related to your project and finish cleaning data and setting up a baseline. In particular you should: 
-* Make progress on the suggested next steps that the class staff and your classmates left for you on your project proposal.
+* Make progress on the suggested next steps that the class staff left for you on your project proposal.
 * Read at least 3 papers related to your proposed project. (See the Lit Review section)
 * Finish collecting any datasets that you need and make sure they are in a format that you can work with.
 * Outline a more definite plan on the types of methods you want to use. What will your system look like?
@@ -67,11 +67,11 @@ For those with extra ambitious projects, we suggest doing these bullet points fo
 * If your project involves a user experience of some sort, create a mock-up of the user interface (even if it's not fully functional/feature-complete yet).
 
 ## Informal Lit Review
-For this milestone we would like you to do a short literature review of at **least 3 papers** relating to your project. It might seem arbitrary to restrict you from not using papers from the course website, but we want to encourage you to go out on your own and find interesting new work to include in your project! We'd encourage you to do more than 3, but 3 is the minimum requirement for full credit. 
+For this milestone we would like you to do a short literature review of at **least 3 papers** relating to your project. We'd encourage you to do more than 3, but 3 is the minimum requirement for full credit. 
 
 There are a couple of ways to find papers.
 
-1) To find good papers, we recommend starting with a highly relevant paper (maybe from the course website or one that was suggested to you), and either looking through the paper's Related Works section or using [Google Scholar](https://scholar.google.com/) to find papers that cite it. You can also use [Semantic Scholar](https://www.semanticscholar.org/) to do this as they distinguish between "Highly Influential" citations and standard citations, which could help you narrow down your search.
+1) To find good papers, we recommend starting with a highly relevant paper and either looking through the paper's Related Works section or using [Google Scholar](https://scholar.google.com/) to find papers that cite it. You can also use [Semantic Scholar](https://www.semanticscholar.org/) to do this as they distinguish between "Highly Influential" citations and standard citations, which could help you narrow down your search.
 
 2) You can also look through conference proceedings, such as those listed for the Paper Presentation (e.g., [AAAI Digital Library](https://www.aaai.org/Library/conferences-library.php), [ACL Anthology (NLP)](https://aclanthology.org/), [ICLR (ML)](https://dblp.org/db/conf/iclr/index.html), [NeurIPS (ML)](https://papers.neurips.cc/), [Computer Vision Foundation Open Access Library](https://openaccess.thecvf.com/menu), [ROS (Robotics)](https://ieeexplore.ieee.org/xpl/conhome/1000393/all-proceedings), [ICRA (Robotics)](https://ieeexplore.ieee.org/xpl/conhome/1000639/all-proceedings), [RSS (Robotics)](https://www.roboticsproceedings.org/), [Interspeech (Speech)](https://www.isca-speech.org/archive/), or [ICASSP (Speech)](https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings)) to search through only papers that were accepted to top AI conferences. Doing this may help you find some "diamonds in the rough" (i.e. papers that are of high quality but do not have many citations yet by virtue of them being very new).
 
