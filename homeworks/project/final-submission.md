@@ -103,10 +103,20 @@ This section is our grading rubric for the final report.
 5. __Length__: There is no strict word length requirement, but if your paper has fewer than 1,500 words (not including referneces) then it is very likely you have not provided enough detail.
 
 <div class="alert alert-warning" markdown="1">
+Presentation
+* Length - 1 point
+* Motivation - 1 point
+* Communcation - 1 point
+* Results - 1 point
+* Lessons Learned - 1 point
+
+Report
 * Formatting - 1 point
 * Communication - 3 points
 * Style - 1 point
 * Content - 7 x 3 points each = 21 points
+
+Extra Credit
 * Popular Choice - 2 points extra credit
 </div>
 
