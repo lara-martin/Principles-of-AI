@@ -95,7 +95,7 @@ __Title__ & __Author Names__: What are you calling your project? These are not g
 1. __Project Description__: This is the "what" and the "why" of your project. 
  * The "what": Explain the main idea of your project and what you are trying to accomplish. It's okay if these have changed since the project proposal.
  * The "why": If it's a research project, what's your research question (i.e., what are you trying to prove with this work)? If it's an artifact that you're creating, why are you creating it?
-2. __Related Work__: What previous research will you be using, building off of, or being inspired by? Tell a short "story" using what you found out from the Lit Review above. This can include papers from the course schedule as well as anything else you want to cite.
+2. __Related Work__: What previous research will you be using, building off of, or being inspired by? Tell a short "story" using what you found out from the Lit Review above.
 3. __Methods__: What are the steps to accomplish your project? This should describe both the steps you've done so far (data collection and system planning) and the ones you plan to do. This doesn't have to be the final methods that you end up using, but writing out a plan out will help you figure out some details you might not have thought of otherwise!
 4. __Data__: What data have you decided to use? Where did you get it from, what does it look like, and what are some potential problems with it?
 5. __Evaluation Plan__: What will you be using to evaluate your research question or that the components of your AI system are working well? 
