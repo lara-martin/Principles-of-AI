@@ -97,7 +97,8 @@ This section is our grading rubric for the final report. This Milestone will not
 * Formatting - 1 point
 * Communication - 2 points
 * Style - 1 point
-* Content - 8 x 3 points each =  24 points
+* Content (description, related work, methods, data, evaluation, results, discussion) - 7 x 3 points each =  21 points
+* Attribution - 1 point
 * Length - 1 point
 </div>
 
