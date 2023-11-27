@@ -20,7 +20,7 @@ In this assignment, you will
 - Find a topic of interest in recent news related to AI. You don't need a specific news article to draw from; it can just be something you heard. However, if you can find an article, it might give you a more concrete starting point.
 - Present your stance. Do you agree? Disagree? Agree only in certain conditions?
 - Back up your stance using research articles.
-  - Find 5 articles from reputible research articles that back up your stance or refute opposing views.
+  - Find 3 reputible research articles that back up your stance or refute opposing views.
   - Summarize each article and tie it into your argument.
 
 
@@ -35,7 +35,7 @@ Use of AI/automatic tools for grammatical assistance (such as spell-checkers or 
 - A pdf of your report is due by midnight December 19, 2023.
 - You will get 2 points on your final grade if you follow all of these grading criteria:
   - Report is well-written and easy to follow.
-  - Articles that are cited are 1) from highly-cited conferences or journals and 2) cited correctly. You have at least 5 articles you cite.
+  - Articles that are cited are 1) from highly-cited conferences or journals and 2) cited correctly. You have at least 3 articles you cite.
   - Articles are constructive to your argument and summarized well.
 - You will lose 0.5 points for every component above that is missed or not completed sufficiently.
 - You will get 0.5 points if you give the assignment a solid effort but neglect the 3 grading criteria.
