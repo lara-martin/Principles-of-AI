@@ -55,7 +55,7 @@ You can download the materials for this assignment here:
 =============================================================
 For your final project you should prepare a 10 minute video presentation for the class and a report documenting what you accomplished. **The video presentation submission is due December 19 before the exam time (1PM) and the final report is due on December 19 at 11:59PM.**
 
-## Video Presentation
+## Video Presentation (5 points)
 For this semester we are requiring all presentations to be in pre-recorded video form -- this will allow us to move through presentations quickly while simultaneously leaving you with a nice artifact that you can show off to friends/colleagues/future employers.
 We will be enforcing a strict time limit of 10 minutes for the video submission so please do not exceed that.
 To that end, please feel free to use editing software such as iMovie or Windows Movie Maker to edit down and refine your video presentation.
@@ -72,7 +72,7 @@ Your presentation will be graded on the following criteria.
 5. __Lessons Learned__: What did you learn from this project and what might you do differently next time? What questions or directions for future work remain?
 
 
-## Project Final Report
+## Project Final Report (26 points)
 Your final report is a document that describes what you have accomplished in your project this semester. You are very welcome and *encouraged* to draw content from all previous reports you have submitted so far. At this point in the class, all of you have read and presented on academic papers. You should use those journal and conference papers as inspiration for what a good writeup looks like.
 
 For your final report, the use of LaTeX and a conference template is **required**. You should use the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit23.zip). Please directly message us if you'd like to use a LaTeX template from a different conference.
@@ -93,8 +93,11 @@ __Title__ & __Author Names__: What are you calling your project? These are not g
 7. __Discussion__: This is a _meta_ section to discuss how the project went.
 What things did you try that didn't work out? If you were to start over from scratch, what would you do differently? If someone were to continue working on this project, what do you suggest are good next steps/good future work?
 
-## Group Feedback
+## Group Feedback (1 point)
 You are also required to submit [this feedback form](https://forms.gle/P3SJPrxFpCCAvYxT8) for each member of your group.
+
+## Extra Credit: Popular Choice (2 points)
+Your classmates will vote on whose project & presentation was the coolest. This team will get 2 points.
 
 ### Grading
 This section is our grading rubric for the final report. 
