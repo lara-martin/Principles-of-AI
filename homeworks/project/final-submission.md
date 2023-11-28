@@ -93,6 +93,9 @@ __Title__ & __Author Names__: What are you calling your project? These are not g
 7. __Discussion__: This is a _meta_ section to discuss how the project went.
 What things did you try that didn't work out? If you were to start over from scratch, what would you do differently? If someone were to continue working on this project, what do you suggest are good next steps/good future work?
 
+## Group Feedback
+You are also required to submit [this feedback form](https://forms.gle/P3SJPrxFpCCAvYxT8) for each member of your group.
+
 ### Grading
 This section is our grading rubric for the final report. 
 
@@ -116,13 +119,16 @@ Report
 * Style - 1 point
 * Content - 7 x 3 points each = 21 points
 
-Extra Credit
-* Popular Choice - 2 points extra credit
+Group Feedback - 1 point
+
+Extra Credit (Popular Choice) - 2 points extra credit
 </div>
 
 # What to Submit
-Submit the following to Blackboard before the exam period (1 PM) on **Thursday December 19**:
+Every member of your team needs to fill out this feedback form: [https://forms.gle/P3SJPrxFpCCAvYxT8](https://forms.gle/P3SJPrxFpCCAvYxT8)
+
+Submit the following to Blackboard before the exam period (1 PM) on **Thursday, December 19**:
 * A link to your pre-recorded video presentation. This can be on any video hosting platform ([YouTube](https://www.youtube.com/), [Vimeo](https://vimeo.com/watch), etc.). Please double check that the video link is visible to the public before submitting. 
 
-Submit the following to Blackboard by 11:59 PM on **Thursday December 19**:
+Submit the following to Blackboard by 11:59 PM on **Thursday, December 19**:
 * `final-report.pdf` which contains your project report. The use of LaTeX and a conference template is required. Use the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit23.zip) or please message us directly if you'd like to use a LaTeX template from a different conference.
