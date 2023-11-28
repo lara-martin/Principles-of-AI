@@ -11,7 +11,7 @@ submission_link: https://blackboard.umbc.edu/ultra/courses/_76209_1/outline/asse
 <div class="alert alert-info">
 A pdf of your report is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
 <br>Submission Link: <a href="{{page.submission_link}}">{{ page.submission_link }}</a>
-
+</div>
 
 {{page.title}}
 =============================================================
