@@ -35,7 +35,7 @@ The in-class activity for {{ page.release_date | date: "%A %b %-d" }} will be to
 {% else %}
 <!-- Homework assignment -->
 <div class="alert alert-info">
-<a href="https://laramartin.net/Principles-of-AI/{{page.url}}">{{page.type}} {{page.number}}: {{page.title}}</a> has been released.
+<a href="https://laramartin.net/Principles-of-AI{{page.url}}">{% if page.type %}{{page.type}} {{page.number}}: {% endif %}{{page.title}}</a> has been released.
 {% if page.deliverables %}
 The assignment has multiple deliverables.
 <ul>
