@@ -213,7 +213,8 @@
   type: no_lecture       
 -
   date: 2023-11-28
-  title: Supervised vs Unsupervised Learning
+  title: Intro to Machine Learning
+  slides: slides/23-11-28_Intro-to-ML.pdf
   homework_due:
     -
       title: "Project Milestone 2: Lit Review"
