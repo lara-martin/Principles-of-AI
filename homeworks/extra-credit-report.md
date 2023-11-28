@@ -3,10 +3,14 @@ layout: default
 title: Extra Credit Research Report (+0.5-2 points on final grade)
 active_tab: homework
 release_date: 2023-11-28
-submission_link: 
+due_date: 2023-12-19 23:59:00EST
+submission_link: https://blackboard.umbc.edu/ultra/courses/_76209_1/outline/assessment/test/_6498924_1?courseId=_76209_1
 
 ---
 
+<div class="alert alert-info">
+A pdf of your report is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
+<br>Submission Link: <a href="{{page.submission_link}}">{{ page.submission_link }}</a>
 
 
 {{page.title}}
@@ -32,7 +36,6 @@ Use of AI/automatic tools for grammatical assistance (such as spell-checkers or 
 
 
 ## Grading
-- A pdf of your report is due by midnight December 19, 2023.
 - You will get 2 points on your final grade if you follow all of these grading criteria:
   - Report is well-written and easy to follow.
   - Articles that are cited are 1) from highly-cited conferences or journals and 2) cited correctly. You have at least 3 articles you cite.
