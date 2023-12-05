@@ -271,7 +271,7 @@
           authors: Stuart Russell & Peter Norvig
           title: AIMA, Chapter 14.3, 19.3, 19.6, 19.7
     - 
-      title: Perceptrons & Local Search Revisited/Gradient Descent
+      title: Perceptrons
       video: 
       length: 
       slides: 
@@ -279,7 +279,7 @@
         -
           authors: Stuart Russell & Peter Norvig
           url: 
-          title: AIMA, Chapter 4.1, 19.6
+          title: AIMA, Chapter 19.6
     - 
       title: Deep Neural Networks
       video: 
