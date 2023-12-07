@@ -230,6 +230,7 @@
 -
   date: 2023-12-07
   title: Deep Neural Networks
+  slides: slides/23-12-07_Neural-Networks.pdf
   homework_due:
     -
       title: "Project Milestone 3: Final Report Draft"
