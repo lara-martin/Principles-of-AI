@@ -106,7 +106,7 @@ This section is our grading rubric for the final report.
 2. __Communication__: Your report should be targeted at an audience who is familiar with AI but has not taken the class and knows nothing about what you have done so far. You can imagine your audience as either the readers of a technical blog post (if you took the system option) or as reviewers of a paper submission to a conference such as AAAI (if you took the research question option). You should aim to make your methods section clear enough that others could attempt to reproduce your work and your results section clear enough that readers understand exactly what experiments you ran.
 3. __Style__: You should write in paragraphs and complete sentences unless there is a very good reason not to.
 4. __Content__: The report answers all relevant questions posed in the previous section. Images, tables, plots, of other figures are used to support the report contents.
-5. __Length__: There is no strict word length requirement, but if your paper has fewer than 1,500 words (not including referneces) then it is very likely you have not provided enough detail.
+5. __Length__: There is no strict word length requirement, but if your paper has fewer than 1,500 words (not including references) then it is very likely you have not provided enough detail.
 
 <div class="alert alert-warning" markdown="1">
 Presentation
