@@ -35,7 +35,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-Your video is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. Add the link to the <a href="">Google Doc</a> to submit.<br>
+Your video is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. Add the link to the <a href="https://docs.google.com/spreadsheets/d/1FnP2T5-VHwcEr3LfuJrPxgVEJhjsjpepHl3Ov1YWjlA/edit?usp=sharing">Google Doc</a> to submit.<br>
 Your paper is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before 11:59PM. Paper Submission Link: <a href="{{page.submission}}">{{page.submission}}</a>
 </div>
 
@@ -131,7 +131,7 @@ Extra Credit (Popular Choice) - 2 points extra credit
 Every member of your team needs to fill out this feedback form: [https://forms.gle/P3SJPrxFpCCAvYxT8](https://forms.gle/P3SJPrxFpCCAvYxT8)
 
 Submit the following to Blackboard before the exam period (1 PM) on **Thursday, December 19**:
-* A link to your pre-recorded video presentation. This can be on any video hosting platform ([YouTube](https://www.youtube.com/), [Vimeo](https://vimeo.com/watch), etc.). Please double check that the video link is visible to the public before submitting. 
+* A link to your pre-recorded video presentation. This can be on any video hosting platform ([YouTube](https://www.youtube.com/), [Vimeo](https://vimeo.com/watch), etc.). Please double check that the video link is visible to the public before submitting. It can be unlisted. 
 
 Submit the following to Blackboard by 11:59 PM on **Thursday, December 19**:
 * `final-report.pdf` which contains your project report. The use of LaTeX and a conference template is required. Use the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit23.zip) or please message us directly if you'd like to use a LaTeX template from a different conference.
